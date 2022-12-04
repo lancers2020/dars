@@ -1,8 +1,10 @@
-.App {
-  text-align: center;
-}
+
 
 .navbar-wrapper{
   justify-content: center;
-  display: flex;
+  display: flex; 
+  
+  
 }
+
+
