@@ -1,12 +1,12 @@
 import React from 'react'
+import Card from "./components/Card";
+import CauliFlower from "../pictures/cauliflower.jpg";
 
 function Menu() {
   return (
     <div className="container" id="navbar">
      <div className='container-fluid'>
-      <img src="" className=''></img>
-      text 1
-
+      <Card height="auto" width="200px" name="mango shake" bgColor={"red"} price="500 php" picture={CauliFlower}/>
      </div>
 
      <div className='row'>
