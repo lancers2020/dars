@@ -6,7 +6,7 @@ import Menu from './pages/Menu'
 import Delivery from './pages/Delivery'
 import Login from './pages/Login'
 import About from './pages/About'
-import './App.css'
+import "./App.css";
 
 
 function App() {

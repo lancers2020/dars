@@ -1,41 +1,31 @@
 import React from 'react'
+import Card from "../components/Card";
+import CauliFlower from "../pictures/cauliflower.jpg";
 
 function Menu() {
   return (
+    <div>
+      <div className="container" id="navbar">
+     <div className='container-fluid'>
+      <Card height="auto" width="200px" name="mango shake" bgColor={"red"} price="500 php" picture={CauliFlower}/>
+     </div>
 
-    <div className="banner">
-       <div className="container-flex">     
-        <div className="img">
-         <div className="center topMargin">
-          <img src="" />
-        </div>  
-        <div className="banner-title-wrapper mt-5">  
-          <h1>DARS Recipe</h1>                                                                              
-      </div>  
-    </div>  
-   <br/>
-
-    <div className="row">
-      <div className="col-6 center">
-        <img className="img-responsive img-thumbnail" src="" 
-        />
+     <div className='row'>
+      <div className='col-sm-4 center'>
+        <img className=''></img>
+        text 2
       </div>
-    <div className="text col-6" >
-  
-      
-    
-    </div>
-   </div>
-       <div className="row">
-        <div className="col-6 center">
-     
-      
-    </div>
-      <div className="text col-6 my-5" >
-       <div className="row">
-        <div img className="img-responsive img-thumbnail" src="" 
-        />
-     
+
+     </div>
+
+     <div className='col-sm-4 center'>
+      <img className=''></img>
+      text 3
+     </div>
+
+     <div className='col-sm-4 right'>
+      <img className=''></img>
+      text 4
      </div>
     </div>
        <div className="col-6 center">
@@ -45,9 +35,7 @@ function Menu() {
 
    
    </div>    
-  </div>
- </div>
-
+   
   )
  } 
  
