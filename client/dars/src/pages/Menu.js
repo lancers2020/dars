@@ -27,7 +27,6 @@ import banner from "../pictures/banner.jpg";
 import OverFlowX from './components/OverFlowX';
 
 function Menu() {
-  var number = 23;
   var label=[
     "Roasted Cauliflower",
     "Adobo Mexican",
@@ -216,7 +215,8 @@ function Menu() {
         height="200px" 
         bgColor="pink"
         price={price} 
-        picture={pictures}/>
+        picture={pictures}
+      />
     </div> 
     </div>
    </div>
