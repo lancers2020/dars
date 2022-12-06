@@ -1,0 +1,21 @@
+.banner{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 100px;
+    text-align:center;
+    margin-bottom: 100px;
+  }
+  
+  .main-dish{
+    display: flex;  
+    overflow-x: auto;
+   }
+  
+  section{
+   padding: 10px;
+   background-color: rgb(190, 187, 187);
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+  
+  }
