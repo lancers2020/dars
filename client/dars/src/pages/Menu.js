@@ -24,8 +24,85 @@ import sizzling_teriyaki_squid from "../pictures/sizzling_teriyaki_squid.jpg";
 import sticky_garlic_chicken_wings from "../pictures/sticky_garlic_chicken_wings.jpg";
 import tostadong_pork_adobo from "../pictures/tostadong_pork_adobo.jpg";
 import banner from "../pictures/banner.jpg";
+import OverFlowX from './components/OverFlowX';
 
 function Menu() {
+  var number = 23;
+  var label=[
+    "Roasted Cauliflower",
+    "Adobo Mexican",
+    "Lechon Pork",
+    "Lechon Chicken",
+    "Pancit Palabok",
+    "Sisig",
+    "Beef Salpicao",
+    "Bistek Tagalog",
+    "Bulalo",
+    "Crispy Pata",
+    "Dinuguan",
+    "Ginataang Gulay",
+    "Humba",
+    "Kalderita",
+    "Inaihaw na Pusit",
+    "Kare-kare",
+    "Lechon Kawali",
+    "Pancit Guisado",
+    "Pinapaitan",
+    "Pinaputok na Isda",
+    "Sizzling Teriyaki Squid",
+    "Sticky Garlic Chicken Wings",
+    "Tostadong Pork Adobo"
+  ]
+  var price = [
+    100,
+    300,
+    455,
+    499,
+    250,
+    155,
+    299,
+    199,
+    355,
+    399,
+    199,
+    55,
+    139,
+    140,
+    355,
+    139,
+    250,
+    299,
+    240,
+    170,
+    125,
+    180,
+    155
+  ]
+  var pictures = [
+    roasted_cauliFlower,
+    adobo_mexican,
+    Lechon_pork,
+    lechon_chicken,
+    pancit_palabok,
+    sisig,
+    beef_salpicao,
+    bistek_tagalog,
+    bulalo,
+    crispy_pata,
+    dinuguan,
+    ginataang_gulay,
+    humba,
+    kaldereta,
+    inihaw_na_pusit,
+    kare_kare,
+    lechon_kawali,
+    pancit_guisado,
+    pinapaitan,
+    pinaputok_na_isda,
+    sizzling_teriyaki_squid,
+    sticky_garlic_chicken_wings,
+    tostadong_pork_adobo
+  ]
   return (
 
     <div>
@@ -36,7 +113,7 @@ function Menu() {
 
       <div className="container" id="navbar">
            
-      <section id="section-1">
+      {/* <section id="section-1">
         <h3>Main Dish</h3>
       <div className="main-dish">
       <div>
@@ -130,10 +207,16 @@ function Menu() {
        <Card height="200px" width="200px" name="Tostadong pork adobo" bgColor={"violet"} price="155 php" picture={tostadong_pork_adobo}/>
       </div>
       </div>
-      </section>
-      
-
+      </section> */}
        
+      <OverFlowX 
+        category="Main Dish"
+        label={label}
+        width="200px" 
+        height="200px" 
+        bgColor="pink"
+        price={price} 
+        picture={pictures}/>
     </div> 
     </div>
    </div>
