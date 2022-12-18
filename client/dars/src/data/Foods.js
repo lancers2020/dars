@@ -12,6 +12,7 @@ function Foods() {
     
  }
 
+//  in line number 19, we have to remove .length so it'll be just "mainDish.names[i]"
  const Result = () =>{
     let sample = [];
     for(let i = 0; i < mainDish.names.length; i++){

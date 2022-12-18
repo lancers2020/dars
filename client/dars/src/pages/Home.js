@@ -1,11 +1,12 @@
 import React from 'react'
 import Foods from '../data/Foods'
+import Testing1 from '../test/dave/Testing1'
+
 
 function Home() {
   return (
-    <div>
-      Home
-      <Foods/>
+    <div style={{color: "white"}}>
+      <Testing1/>
     </div>
   )
 }
