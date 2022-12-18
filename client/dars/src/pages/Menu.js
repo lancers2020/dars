@@ -42,7 +42,7 @@ function Menu() {
     "Ginataang Gulay",
     "Humba",
     "Kalderita",
-    "Inaihaw na Pusit",
+    "Inihaw na Pusit",
     "Kare-kare",
     "Lechon Kawali",
     "Pancit Guisado",
