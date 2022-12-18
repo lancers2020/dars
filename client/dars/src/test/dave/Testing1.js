@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Testing1() {
+function Testing1({foods}) {
     const mainDish={
         "names":["roasted cauliflower", "adobo mexican", "lechon pork", "lechon chicken", "pancit palabok", "sisig",
                  "beef salpicao", "bistek tagalog", "bulalo", "crispy pata", "dinuguan", "ginataang gulay",
@@ -11,10 +11,12 @@ function Testing1() {
     }
     const Result = () =>{
         let sample = [];
-        for(let i = 0; i < mainDish.names.length; i++){
-            sample.push(mainDish.names[i]);
+        if(foods === "mainDish"){
+            for(let i = 0; i < mainDish.names.length; i++){
+                sample.push(mainDish.names[i]);
+            }
+            return sample;
         }
-        return sample;
     }
 
     return (

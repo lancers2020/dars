@@ -6,7 +6,8 @@ import Testing1 from '../test/dave/Testing1'
 function Home() {
   return (
     <div style={{color: "white"}}>
-      <Testing1/>
+      Home
+      <Testing1 foods="mainDish"/>
     </div>
   )
 }
