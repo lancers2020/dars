@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Foods() {
  const mainDish={
     "names":["roasted cauliflower", "adobo mexican", "lechon pork", "lechon chicken", "pancit palabok", "sisig",
@@ -16,7 +17,7 @@ function Foods() {
  const Result = () =>{
     let sample = [];
     for(let i = 0; i < mainDish.names.length; i++){
-        sample.push(mainDish.names.length[i]);
+        sample.push(mainDish.names[i]);
     }
     return sample;
  }
