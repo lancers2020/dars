@@ -12,7 +12,7 @@ function Testing1({foods}) {
     }
     const appetizer={
         "names":["atchara", "beef empanadas", "cheese sticks", "chicharon", "crispy deep fried chicken skin",
-                "crispy tenga", "dynamite lumpia", "fishball", "fried lumpia", "kwek kwek", "lumpiang shanghai", "okoy pork siomai"],
+                "crispy tenga", "dynamite lumpia", "fishball", "fried lumpia", "kwek kwek", "lumpiang shanghai", "okoy", "pork siomai"],
         "price":["55", "30", "50", "65", "73", "45", "25", "30", "65", "33", "65", "75"]
     }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from "../components/Card";
-import roasted_cauliFlower from "../pictures/roasted_cauliflower.jpg";
+import roasted_cauliFlower from "../src/pictures/roasted_cauliFlower";
 import adobo_mexican from "../pictures/adobo_mexican.jpg";
 import Lechon_pork from "../pictures/lechon_pork.jpg";
 import lechon_chicken from "../pictures/lechon_chicken_2.jpg";
