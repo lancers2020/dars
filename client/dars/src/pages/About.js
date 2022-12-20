@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Card from '../components/Card'
-import Adobo from '../pictures/adobo_mexican.jpg'
+import Adobo from '../pictures/main_dish/adobo_mexican.jpg'
 import './css/about.css'
 
 
