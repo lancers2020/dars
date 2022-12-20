@@ -7,8 +7,8 @@ function Foods() {
              "beef salpicao", "bistek tagalog", "bulalo", "crispy pata", "dinuguan", "ginataang gulay",
              "humba", "kaldereta", "inihaw na pusit", "kare kare", "lechon kawali", "pancit guisado",
              "pinapaitan", "pinaputok na isda", "sizzling teriyaki squid", "sticky garlic chicken wings", "tostadong pork adobo"],
-    "price":["100", "300", "455", "499", "250", "155", "299", "199", "355", "399", "199", "55", "139", "140", "355", "139", "250",
-             "299", "240", "170", "125", "180", "155"]
+    "price":["10.99", "30.99", "45.99", "49.99", "25.99", "15.99", "29.99", "19.99", "35.99", "39.99", "19.99", "55.99", "13.99", "14.99", "35.99", "13.99", "25.99",
+             "29.99", "24.99", "17.99", "12.99", "18.99", "15.99"]
 
     
  }
