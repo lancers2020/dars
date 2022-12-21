@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{Component} from 'react'
+import './css/menu.css';
 import Card from "../components/Card";
 import roasted_cauliFlower from "../pictures/main_dish/roasted_cauliflower.jpg";
 import adobo_mexican from "../pictures/main_dish/adobo_mexican.jpg";
@@ -106,9 +107,9 @@ function Menu() {
   ]
   return (
 
-    <div>
+    <section className='menu-wrapper'>
       <div className='banner'>
-          <img src={banner} alt="banner" width="100%" height="100%"/>
+          <img src={banner} alt="banner"/>
       </div>  
 
       <div className="container" id="navbar">
@@ -118,11 +119,11 @@ function Menu() {
           width="200px" 
           height="200px" 
           bgColor="pink"
-          price={price} 
+          price={price}
           picture={pictures}
         />
       </div> 
-    </div>
+    </section>
  
 
   )
