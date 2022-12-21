@@ -1,8 +1,8 @@
 import React from 'react'
-import Foods from '../data/Foods'
+import MainDish from '../data/MainDish'
 import Testing1 from '../test/dave/Testing1'
 import Appetizer from '../data/foods/Appetizer'
-import Alcohol from '../data/foods/Alcohol'
+import Drinks from '../data/foods/Drinks'
 import Dessert from '../data/foods/Dessert'
 import Pulutan from '../data/foods/Pulutan'
 

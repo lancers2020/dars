@@ -3,6 +3,31 @@ import React,{useState} from 'react'
 
 
 function Testing1(){
+    const Breakfast=()=>{
+        if(isBreakfast===true){
+            return (
+                <div
+                   style={{}}
+                >
+                   <h1>breakfast</h1>
+                </div>
+            )
+        }
+    }
+
+    const Appetizer=()=>{
+        if(isAppetizer===true){
+            return (
+                <div
+                  style={{}}
+                >
+                   <h1>appetizer</h1>     
+                </div>
+           )
+        }          
+    }
+
+
     const MainDish=()=>{
         if(isMainDish===true){
             return (
@@ -16,53 +41,106 @@ function Testing1(){
         
     }
 
-    const Pulutan=()=>{
-        return (
-            <h1>pulutan</h1>
-        )
-    }
-
-    const Appetizer=()=>{
-        return (
-            <h1>appetizer</h1>
-        )
-    }
-
     const Dessert=()=>{
-        return (
-            <h1>dessert</h1>
-        )
+        if(isDessert===true){
+            return (
+                <div
+                  style={{}}
+                >
+                   <h1>dessert</h1>
+                </div>               
+            )
+        }     
     }
 
+    const Pulutan=()=>{
+        if(isPulutan===true){
+            return (
+                <div
+                  style={{}}
+                >
+                   <h1>pulutan</h1>
+                </div>             
+            )
+        }       
+    }
+   
+    const Drinks=()=>{
+        if(isDrinks===true){
+            return (
+                <div
+                   style={{}}
+                >
+                   <h1>drinks</h1>
+                </div>
+            )
+        }
+    }
 
-
-    const [isMainDish, setIsMainDish] =
-    useState(false);
-
-    const [isPulutan, setIsPulutan] =
+    
+    const [isBreakfast, setIsBreakfast] =
     useState(false);
 
     const [isAppetizer, setIsAppetizer] =
     useState(false);
 
+    const [isMainDish, setIsMainDish] =
+    useState(false);
+
     const [isDessert, setIsDessert] =
     useState(false);
-   
+
+    const [isPulutan, setIsPulutan] =
+    useState(false);
+
+    const [isDrinks, setIsDrinks] =
+    useState(false);
+  
      return (
        <div>
          <div
+           onClick={()=>{
+            setIsBreakfast(true);
+            <Breakfast/>
+           }} 
+        >Breakfast</div>
+
+         <div
             onClick={()=>{
-                setIsMainDish(true);
-                <MainDish/>
+             setIsAppetizer(true);
+             <Appetizer/>      
+           }}
+        >Appetizer</div>
+
+         <div
+            onClick={()=>{
+             setIsMainDish(true);
+             <MainDish/>
             }} 
-         >main dish</div>
+         >Main Dish</div>
+
          <div
-         >pulutan</div>
+            onClick={()=>{
+             setIsDessert(true);
+             <Dessert/>
+            }}
+         >Dessert</div>
+
          <div
-         >appetizer</div>
+            onClick={()=>{
+             setIsPulutan(true);
+             <Pulutan/>
+            }}           
+         >Pulutan</div>
+               
          <div
-         >dessert</div>
-       </div>
+            onClick={()=>{
+             setIsDrinks(true);
+             <Drinks/>
+            }}
+         >Drinks</div>
+        
+      </div>       
      )
  }
 
