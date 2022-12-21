@@ -109,7 +109,7 @@ function Menu() {
 
     <section className='menu-wrapper'>
       <div className='banner'>
-          <img src={banner} alt="banner"/>
+        {/* this is the banner */}
       </div>  
 
       <div className="container" id="navbar">
