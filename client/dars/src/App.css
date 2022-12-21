@@ -1,6 +1,9 @@
 .navbar-wrapper{
   justify-content: center;
   display: flex; 
-  
-  
+  background-color: red;
+}
+.navbar-wrapper>div{
+  padding: 30px;
+  background-color: yellow;
 }
