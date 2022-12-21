@@ -107,12 +107,12 @@ function Menu() {
   ]
   return (
 
-    <section className='menu-wrapper'>
-      <div className='banner'>
+    <div className='menu-wrapper'>
+      <section id="section-1" className='banner'>
         {/* this is the banner */}
-      </div>  
+      </section>  
 
-      <div className="container" id="navbar">
+      <section id="section-2" className="container">
         <OverFlowX 
           category="Main Dish"
           label={label}
@@ -122,8 +122,11 @@ function Menu() {
           price={price}
           picture={pictures}
         />
-      </div> 
-    </section>
+      </section> 
+      <section id='section-3'>
+
+      </section>
+    </div>
  
 
   )

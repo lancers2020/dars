@@ -2,5 +2,8 @@
   justify-content: center;
   display: flex; 
   background-color: red;
-  padding: 20px;
+}
+.navbar-wrapper>div{
+  padding: 30px;
+  background-color: yellow;
 }
