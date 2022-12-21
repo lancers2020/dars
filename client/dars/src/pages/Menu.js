@@ -26,7 +26,7 @@ import sticky_garlic_chicken_wings from "../pictures/main_dish/sticky_garlic_chi
 import tostadong_pork_adobo from "../pictures/main_dish/tostadong_pork_adobo.jpg";
 import banner from "../pictures/logo/banner.jpg";
 import OverFlowX from './components/OverFlowX';
-
+import Testing1 from '../test/sheryl/Testing1';
 
 
 function Menu() {
@@ -124,7 +124,7 @@ function Menu() {
         />
       </section> 
       <section id='section-3'>
-
+        <Testing1/>
       </section>
     </div>
  
