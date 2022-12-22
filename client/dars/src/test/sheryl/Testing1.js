@@ -77,6 +77,19 @@ function Testing1(){
         }
     }
 
+    const Display=()=>{
+        return(
+            <div>
+                <Breakfast/>
+                <Appetizer/>
+                <MainDish/>
+                <Dessert/>
+                <Pulutan/>
+                <Drinks/>
+            </div>
+        )
+    }
+
     
     const [isBreakfast, setIsBreakfast] =
     useState(false);
@@ -97,50 +110,57 @@ function Testing1(){
     useState(false);
   
      return (
-       <div>
-         <div
-           onClick={()=>{
-            setIsBreakfast(true);
-            <Breakfast/>
-           }} 
-        >Breakfast</div>
-
-         <div
-            onClick={()=>{
-             setIsAppetizer(true);
-             <Appetizer/>      
-           }}
-        >Appetizer</div>
-
-         <div
-            onClick={()=>{
-             setIsMainDish(true);
-             <MainDish/>
-            }} 
-         >Main Dish</div>
-
-         <div
-            onClick={()=>{
-             setIsDessert(true);
-             <Dessert/>
-            }}
-         >Dessert</div>
-
-         <div
-            onClick={()=>{
-             setIsPulutan(true);
-             <Pulutan/>
-            }}           
-         >Pulutan</div>
-               
-         <div
-            onClick={()=>{
-             setIsDrinks(true);
-             <Drinks/>
-            }}
-         >Drinks</div>
-        
-      </div>       
+        <div>
+            <div onClick={()=>{
+                setIsBreakfast(true)
+                setIsAppetizer(false)
+                setIsMainDish(false)
+                setIsDessert(false)
+                setIsPulutan(false)
+                setIsDrinks(false)
+            }}>Breakfast</div>
+            <div onClick={()=>{
+                setIsAppetizer(true)
+                setIsBreakfast(false)
+                setIsMainDish(false)
+                setIsDessert(false)
+                setIsPulutan(false)
+                setIsDrinks(false)
+            }}>Appetizer</div>
+            <div onClick={()=>{
+                setIsMainDish(true)
+                setIsAppetizer(false)
+                setIsBreakfast(false)
+                setIsDessert(false)
+                setIsPulutan(false)
+                setIsDrinks(false)
+            }}>Main Dish</div>
+            <div onClick={()=>{
+                setIsDessert(true)
+                setIsAppetizer(false)
+                setIsMainDish(false)
+                setIsBreakfast(false)
+                setIsPulutan(false)
+                setIsDrinks(false)
+            }}>Dessert</div>
+            <div onClick={()=>{
+                setIsPulutan(true)
+                setIsAppetizer(false)
+                setIsMainDish(false)
+                setIsDessert(false)
+                setIsBreakfast(false)
+                setIsDrinks(false)
+            }}>Pulutan</div>
+            <div onClick={()=>{
+                setIsDrinks(true)
+                setIsAppetizer(false)
+                setIsMainDish(false)
+                setIsDessert(false)
+                setIsPulutan(false)
+                setIsBreakfast(false)
+            }}>Drinks</div>
+            <Display/>
+        </div>       
      )
  }
 
