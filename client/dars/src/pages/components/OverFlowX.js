@@ -24,7 +24,7 @@ function OverFlowX({
           picture.map((items, key)=>{ //function calling is argument
             return(
               <div key={key}>
-                <Card width={width} height={height} bgColor={bgColor} name={label[key]} price={price[key]} picture={items}/>
+                <Card width={width} height={height} bgColor={bgColor} name={label[key]} picture={items}/>
               </div>
             )
           })
