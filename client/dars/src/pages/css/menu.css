@@ -16,7 +16,17 @@ body{
   flex-direction: column;
   text-align: left;
 }
-#section-3{
+#section-2{
   height: 700px;
   background-color: red;
+}
+
+/* menu-navbar */
+.menu-navbar-wrapper{
+  display: flex;
+  justify-content: center;
+}
+.menu-navbar-wrapper>div{
+  margin: 10px;
+  background-color: grey;
 }

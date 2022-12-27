@@ -1,4 +1,4 @@
-import React,{Component} from 'react'
+import React,{Component, useState} from 'react'
 import './css/menu.css';
 import Card from "../components/Card";
 import arroz_caldo from "../pictures/main_dish/arroz_caldo.jpg";
@@ -27,82 +27,241 @@ import sinigang_na_baboy_with_rice from "../pictures/main_dish/sinigang_na_baboy
 import sisig_with_rice from "../pictures/main_dish/sisig_with_rice.jpg";
 import banner from "../pictures/logo/banner.jpg";
 import OverFlowX from './components/OverFlowX';
-import Testing1 from '../test/sheryl/Testing1';
 
+const MenuDisplay=()=>{
+  var label=[
+    "arroz caldo",
+    "beef salpicao",
+    "bistek tagalog",
+    "bulalo",
+    "calamares",
+    "chicken inasal",
+    "crispy pata",
+    "crispy tadyang ng baka",
+    "dinuguan with rice",
+    "garlic chicken wings with rice",
+    "ginataang gulay with rice",
+    "humba with rice",
+    "inihaw na liempo with rice",
+    "inihaw na pusit with rice",
+    "kaldereta with rice",
+    "kare kare",
+    "lechon kawali",
+    "palabok",
+    "pancit bijon",
+    "pancit guisado",
+    "pinapaitan with rice",
+    "pritong isda with rice",
+    "sinigang na baboy with rice",
+    "sisig with rice"
+   ]
+   
+   var pictures = [
+    arroz_caldo,
+    beef_salpicao,
+    bistek_tagalog,
+    bulalo,
+    calamares,
+    chicken_inasal,
+    crispy_pata,
+    crispy_tadyang_ng_baka,
+    dinuguan_with_rice,
+    garlic_chicken_wings_with_rice,
+    ginataang_gulay_with_rice,
+    humba_with_rice,
+    inihaw_na_liempo_with_rice,
+    inihaw_na_pusit_with_rice,
+    kaldereta_with_rice,
+    kare_kare,
+    lechon_kawali,
+    palabok,
+    pancit_bijon,
+    pancit_guisado,
+    pinapaitan_with_rice,
+    pritong_isda_with_rice,
+    sinigang_na_baboy_with_rice,
+    sisig_with_rice
+   ]
+
+  const Breakfast=()=>{
+      if(isBreakfast===true){
+          return (
+              <div
+                 style={{}}
+              >
+                 <h1>breakfast</h1>
+              </div>
+          )
+      }
+  }
+
+  const Appetizer=()=>{
+      if(isAppetizer===true){
+          return (
+              <div
+                style={{}}
+              >
+                 <h1>appetizer</h1>     
+              </div>
+         )
+      }          
+  }
+
+
+  const MainDish=()=>{
+      if(isMainDish===true){
+          return (
+              <div
+                style={{}}
+              >
+                  <OverFlowX 
+                    category="Main Dish"
+                    label={label}
+                    width="200px" 
+                    height="200px" 
+                    bgColor="pink"
+                    picture={pictures}
+                  />
+              </div>
+          )
+      }
+      
+  }
+
+  const Dessert=()=>{
+      if(isDessert===true){
+          return (
+              <div
+                style={{}}
+              >
+                 <h1>dessert</h1>
+              </div>               
+          )
+      }     
+  }
+
+  const Pulutan=()=>{
+      if(isPulutan===true){
+          return (
+              <div
+                style={{}}
+              >
+                 <h1>pulutan</h1>
+              </div>             
+          )
+      }       
+  }
+ 
+  const Drinks=()=>{
+      if(isDrinks===true){
+          return (
+              <div
+                 style={{}}
+              >
+                 <h1>drinks</h1>
+              </div>
+          )
+      }
+  }
+
+  const Display=()=>{
+      return(
+          <div>
+              <Breakfast/>
+              <Appetizer/>
+              <MainDish/>
+              <Dessert/>
+              <Pulutan/>
+              <Drinks/>
+          </div>
+      )
+  }
+
+  
+  const [isBreakfast, setIsBreakfast] =
+  useState(false);
+
+  const [isAppetizer, setIsAppetizer] =
+  useState(false);
+
+  const [isMainDish, setIsMainDish] =
+  useState(false);
+
+  const [isDessert, setIsDessert] =
+  useState(false);
+
+  const [isPulutan, setIsPulutan] =
+  useState(false);
+
+  const [isDrinks, setIsDrinks] =
+  useState(false);
+
+   return (
+    <div>
+      <div className='menu-navbar-wrapper'>
+          <div onClick={()=>{
+              setIsBreakfast(true)
+              setIsAppetizer(false)
+              setIsMainDish(false)
+              setIsDessert(false)
+              setIsPulutan(false)
+              setIsDrinks(false)
+          }}>Breakfast</div>
+          <div onClick={()=>{
+              setIsAppetizer(true)
+              setIsBreakfast(false)
+              setIsMainDish(false)
+              setIsDessert(false)
+              setIsPulutan(false)
+              setIsDrinks(false)
+          }}>Appetizer</div>
+          <div onClick={()=>{
+              setIsMainDish(true)
+              setIsAppetizer(false)
+              setIsBreakfast(false)
+              setIsDessert(false)
+              setIsPulutan(false)
+              setIsDrinks(false)
+          }}>Main Dish</div>
+          <div onClick={()=>{
+              setIsDessert(true)
+              setIsAppetizer(false)
+              setIsMainDish(false)
+              setIsBreakfast(false)
+              setIsPulutan(false)
+              setIsDrinks(false)
+          }}>Dessert</div>
+          <div onClick={()=>{
+              setIsPulutan(true)
+              setIsAppetizer(false)
+              setIsMainDish(false)
+              setIsDessert(false)
+              setIsBreakfast(false)
+              setIsDrinks(false)
+          }}>Pulutan</div>
+          <div onClick={()=>{
+              setIsDrinks(true)
+              setIsAppetizer(false)
+              setIsMainDish(false)
+              setIsDessert(false)
+              setIsPulutan(false)
+              setIsBreakfast(false)
+          }}>Drinks</div>
+      </div>   
+      <Display/>
+    </div>    
+   )
+}
 
 function Menu() {
-  var label=[
-   "arroz caldo",
-   "beef salpicao",
-   "bistek tagalog",
-   "bulalo",
-   "calamares",
-   "chicken inasal",
-   "crispy pata",
-   "crispy tadyang ng baka",
-   "dinuguan with rice",
-   "garlic chicken wings with rice",
-   "ginataang gulay with rice",
-   "humba with rice",
-   "inihaw na liempo with rice",
-   "inihaw na pusit with rice",
-   "kaldereta with rice",
-   "kare kare",
-   "lechon kawali",
-   "palabok",
-   "pancit bijon",
-   "pancit guisado",
-   "pinapaitan with rice",
-   "pritong isda with rice",
-   "sinigang na baboy with rice",
-   "sisig with rice"
-  ]
-  
-  var pictures = [
-   arroz_caldo,
-   beef_salpicao,
-   bistek_tagalog,
-   bulalo,
-   calamares,
-   chicken_inasal,
-   crispy_pata,
-   crispy_tadyang_ng_baka,
-   dinuguan_with_rice,
-   garlic_chicken_wings_with_rice,
-   ginataang_gulay_with_rice,
-   humba_with_rice,
-   inihaw_na_liempo_with_rice,
-   inihaw_na_pusit_with_rice,
-   kaldereta_with_rice,
-   kare_kare,
-   lechon_kawali,
-   palabok,
-   pancit_bijon,
-   pancit_guisado,
-   pinapaitan_with_rice,
-   pritong_isda_with_rice,
-   sinigang_na_baboy_with_rice,
-   sisig_with_rice
-  ]
   return (
 
     <div className='menu-wrapper'>
       <section id="section-1" className='banner'>
         {/* this is the banner */}
-      </section>  
-
-      <section id="section-2" className="container">
-        <OverFlowX 
-          category="Main Dish"
-          label={label}
-          width="200px" 
-          height="200px" 
-          bgColor="pink"
-          picture={pictures}
-        />
-      </section> 
-      <section id='section-3'>
-        <Testing1/>
+      </section>
+      <section id='section-2'>
+        <MenuDisplay/>
       </section>
     </div>
  
