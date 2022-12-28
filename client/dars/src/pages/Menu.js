@@ -2,13 +2,13 @@ import React,{Component, useState} from 'react'
 import './css/menu.css';
 import Card from "../components/Card";
 import arroz_caldo from "../pictures/main_dish/arroz_caldo.jpg";
-import beef_salpicao from "../pictures/main_dish/beef_salpicao.jpg";
+import beef_salpicao_with_rice from "../pictures/main_dish/beef_salpicao_with_rice.jpg";
 import bistek_tagalog from "../pictures/main_dish/bistek_tagalog.jpg";
-import bulalo from "../pictures/main_dish/bulalo.jpg";
-import calamares from "../pictures/main_dish/calamares.jpg";
-import chicken_inasal from "../pictures/main_dish/chicken_inasal.jpg";
-import crispy_pata from "../pictures/main_dish/crispy_pata.jpg";
-import crispy_tadyang_ng_baka from "../pictures/main_dish/crispy_tadyang_ng_baka.jpg";
+import bulalo_with_rice from "../pictures/main_dish/bulalo_with_rice.jpg";
+import calamares_with_rice from "../pictures/main_dish/calamares_with_rice.jpg";
+import chicken_inasal_with_rice from "../pictures/main_dish/chicken_inasal_with_rice.jpg";
+import crispy_pata_with_rice from "../pictures/main_dish/crispy_pata_with_rice.jpg";
+import crispy_tadyang_ng_baka_with_rice from "../pictures/main_dish/crispy_tadyang_ng_baka_with_rice.jpg";
 import dinuguan_with_rice from "../pictures/main_dish/dinuguan_with_rice.jpg";
 import garlic_chicken_wings_with_rice from "../pictures/main_dish/garlic_chicken_wings_with_rice.jpg";
 import ginataang_gulay_with_rice from "../pictures/main_dish/ginataang_gulay_with_rice.jpg";
@@ -25,6 +25,8 @@ import pinapaitan_with_rice from "../pictures/main_dish/pinapaitan_with_rice.jpg
 import pritong_isda_with_rice from "../pictures/main_dish/pritong_isda_with_rice.jpg";
 import sinigang_na_baboy_with_rice from "../pictures/main_dish/sinigang_na_baboy_with_rice.jpg";
 import sisig_with_rice from "../pictures/main_dish/sisig_with_rice.jpg";
+import sizzling_teriyaki_squid_with_rice from "../pictures/main_dish/sizzling_teriyaki_squid_with_rice";
+import tostadong_pork_with_rice from "../pictures/main_dish/tostadong_pork_with_rice";
 import banner from "../pictures/logo/banner.jpg";
 import OverFlowX from './components/OverFlowX';
 
@@ -58,13 +60,13 @@ const MenuDisplay=()=>{
    
    var pictures = [
     arroz_caldo,
-    beef_salpicao,
+    beef_salpicao_with_rice,
     bistek_tagalog,
-    bulalo,
-    calamares,
-    chicken_inasal,
-    crispy_pata,
-    crispy_tadyang_ng_baka,
+    bulalo_with_rice,
+    calamares_with_rice,
+    chicken_inasal_with_rice,
+    crispy_pata_with_rice,
+    crispy_tadyang_ng_baka_with_rice,
     dinuguan_with_rice,
     garlic_chicken_wings_with_rice,
     ginataang_gulay_with_rice,
@@ -80,7 +82,9 @@ const MenuDisplay=()=>{
     pinapaitan_with_rice,
     pritong_isda_with_rice,
     sinigang_na_baboy_with_rice,
-    sisig_with_rice
+    sisig_with_rice,
+    sizzling_teriyaki_squid_with_rice,
+    tostadong_pork_with_rice
    ]
 
   const Breakfast=()=>{
