@@ -14,9 +14,9 @@ import garlic_chicken_wings_with_rice from "../pictures/main_dish/garlic_chicken
 import ginataang_gulay_with_rice from "../pictures/main_dish/ginataang_gulay_with_rice.jpg";
 import humba_with_rice from "../pictures/main_dish/humba_with_rice.jpg";
 import inihaw_na_liempo_with_rice from "../pictures/main_dish/inihaw_na_liempo_with_rice.jpg";
-import inihaw_na_pusit_with_rice from "../pictures/main_dish/inihaw_na_pusit_with_rice.jpg";
+import inihaw_na_pusit_with_rice from "../pictures/main_dish/inihaw_na_pusit.jpg";
 import kaldereta_with_rice from "../pictures/main_dish/kaldereta_with_rice.jpg";
-import kare_kare from "../pictures/main_dish/kare_kare.jpg";
+import kare_kare from "../pictures/main_dish/karekare.jpg";
 import lechon_kawali from "../pictures/main_dish/lechon_kawali.jpg";
 import palabok from "../pictures/main_dish/palabok.jpg";
 import pancit_bijon from "../pictures/main_dish/pancit_bijon.jpg";
@@ -25,8 +25,8 @@ import pinapaitan_with_rice from "../pictures/main_dish/pinapaitan_with_rice.jpg
 import pritong_isda_with_rice from "../pictures/main_dish/pritong_isda_with_rice.jpg";
 import sinigang_na_baboy_with_rice from "../pictures/main_dish/sinigang_na_baboy_with_rice.jpg";
 import sisig_with_rice from "../pictures/main_dish/sisig_with_rice.jpg";
-import sizzling_teriyaki_squid_with_rice from "../pictures/main_dish/sizzling_teriyaki_squid_with_rice";
-import tostadong_pork_with_rice from "../pictures/main_dish/tostadong_pork_with_rice";
+import sizzling_teriyaki_squid_with_rice from "../pictures/main_dish/sizzling_teriyaki_squid_with_rice.jpg";
+import tostadong_pork_with_rice from "../pictures/main_dish/tostadong_pork_with_rice.jpg";
 import banner from "../pictures/logo/banner.jpg";
 import OverFlowX from './components/OverFlowX';
 
