@@ -3,8 +3,8 @@ import React from 'react'
 
 function Pulutan(){
     const pulutan={
-       "names":["adobong mani", "bagnet", "bopis", "buffalo wings", "gambas", "kilawing isda at baboy", "kilawing isda", "nilasing na hipon", "pigar pigar",
-                "pork barbecue", "sizzling teriyaki squid", "sizzling tufo", "spicy chicken wings", "spicy fried calamari", "tokwat baboy", "tostadong pork"],
+       "names":["adobong mani", "bagnet", "bopis", "buffalo wings", "gambas", "isaw", "kilawing isda at baboy", "kilawing isda", "nilasing na hipon", "pigar pigar",
+                "pork barbecue", "sizzling tufo", "spicy chicken wings", "spicy fried calamari", "tokwat baboy"],
     
  
     }
