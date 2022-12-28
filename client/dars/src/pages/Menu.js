@@ -27,11 +27,13 @@ import sinigang_na_baboy_with_rice from "../pictures/main_dish/sinigang_na_baboy
 import sisig_with_rice from "../pictures/main_dish/sisig_with_rice.jpg";
 import sizzling_teriyaki_squid_with_rice from "../pictures/main_dish/sizzling_teriyaki_squid_with_rice.jpg";
 import tostadong_pork_with_rice from "../pictures/main_dish/tostadong_pork_with_rice.jpg";
+
+
 import banner from "../pictures/logo/banner.jpg";
 import OverFlowX from './components/OverFlowX';
 
 const MenuDisplay=()=>{
-  var label=[
+  var label_main_dish=[
     "arroz caldo",
     "beef salpicao",
     "bistek tagalog",
@@ -58,7 +60,7 @@ const MenuDisplay=()=>{
     "sisig with rice"
    ]
    
-   var pictures = [
+   var pictures_main_dish = [
     arroz_caldo,
     beef_salpicao_with_rice,
     bistek_tagalog,
@@ -120,11 +122,11 @@ const MenuDisplay=()=>{
               >
                   <OverFlowX 
                     category="Main Dish"
-                    label={label}
+                    label={label_main_dish}
                     width="200px" 
                     height="200px" 
                     bgColor="pink"
-                    picture={pictures}
+                    picture={pictures_main_dish}
                   />
               </div>
           )
@@ -138,7 +140,14 @@ const MenuDisplay=()=>{
               <div
                 style={{}}
               >
-                 <h1>dessert</h1>
+                 <OverFlowX
+                  category="Dessert"
+                  label={label_main_dish}
+                  width="200px" 
+                  height="200px" 
+                  bgColor="pink"
+                  picture={pictures_main_dish}
+                 />
               </div>               
           )
       }     
