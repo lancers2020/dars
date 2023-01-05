@@ -117,7 +117,7 @@ import sizzling_tufo from "../pictures/pulutan/sizzling_tufo.jpg";
 import spicy_chicken_wings from "../pictures/pulutan/spicy_chicken_wings.jpg";
 import spicy_fried_calamari from "../pictures/pulutan/spicy_fried_calamari.jpg";
 import tokwat_baboy from "../pictures/pulutan/tokwat_baboy.jpg";
-import banner from "../pictures/logo/banner.jpg";
+import banner from "../client/src/pictures/logo/banner.jpg";
 import OverFlowX from './components/OverFlowX';
 
 const MenuDisplay=()=>{
@@ -247,7 +247,7 @@ const MenuDisplay=()=>{
         "spicy fried calamari",
         "tokwat baboy"
     ]
-   
+
    var pictures_main_dish = [
     arroz_caldo,
     beef_salpicao_with_rice,
@@ -487,12 +487,12 @@ const MenuDisplay=()=>{
                     width="200px" 
                     height="200px" 
                     bgColor="pink"
-                    picture={pictures_drinks}
-                 />
+                    />        picture={pictures_drinks}
+         
               </div>
           )
       }
-  }
+    }
 
   const Display=()=>{
       return(
@@ -583,6 +583,7 @@ const MenuDisplay=()=>{
    )
 }
 
+
 function Menu() {
   return (
 
@@ -597,8 +598,8 @@ function Menu() {
  
 
   )
- } 
- 
+  }
+
 
   
 

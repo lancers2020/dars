@@ -3,11 +3,11 @@ body{
   margin: 0;
 }
 .banner{
-  background-image: url(../../pictures/logo/banner.jpg);
+  background-image: url("../client/dars/src/pictures/logo/banner.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 10vh;
   max-width: 100vw;
 }
 .menu-wrapper{
