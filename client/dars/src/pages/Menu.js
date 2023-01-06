@@ -4,15 +4,15 @@ import Card from "../components/Card";
 
 import black_coffee from "../pictures/breakfast/black_coffee.jpg";
 import hot_chocolate from "../pictures/breakfast/hot_chocolate.jpg";
-import waffle_blueberries from "../pictures/breakfast/waffle_blueberries.jpg";
-import waffle_strawberry from "../pictures/breakfast/waffle_strawberry.jpg";
+import waffle_blueberries from "../pictures/breakfast/waffle_Blueberries.jpg";
+import waffle_strawberry from "../pictures/breakfast/waffle_Strawberry.jpg";
 
 import atchara from "../pictures/appetizer/atchara.jpg";
 import dynamite_lumpia from "../pictures/appetizer/dynamite_lumpia.jpg";
 import fishball from "../pictures/appetizer/fishball.jpg";
 import lumpiang_shanghai from "../pictures/appetizer/lumpiang_shanghai.jpg";
 
-import crispy_pata from "../pictures/main_dish/crispy_pata.jpg";
+import crispy_pata from "../pictures/main_dish/crispy_Pata.jpg";
 import dinuguan from "../pictures/main_dish/dinuguan.jpg";
 import karekare from "../pictures/main_dish/karekare.jpg";
 import palabok from "../pictures/main_dish/palabok.jpg";
@@ -22,13 +22,13 @@ import pinapaitan from "../pictures/main_dish/pinapaitan.jpg";
 import halo_halo from "../pictures/dessert/halo_halo.jpg";
 import kutsinta from "../pictures/dessert/kutsinta.jpg";
 import lecheflan from "../pictures/dessert/lecheflan.jpg";
-import maizcon_yelo from "../pictures/dessert/maizcon_yelo.jpg";
+import maizcon_yelo from "../pictures/dessert/maizcon_Yelo.jpg";
 
 import heineken from "../pictures/drinks/heineken.jpg";
 import melon_juice from "../pictures/drinks/melon_juice.jpg";
 import pineapple_juice from "../pictures/drinks/pineapple_juice.jpg";
-import red_horse from "../pictures/drinks/red_horse.jpg";
-import strawberry_juice from "../pictures/drinks/strawberry_juice.jpg";
+import red_horse from "../pictures/drinks/red_Horse.jpg";
+import strawberry_juice from "../pictures/drinks/strawberry_Juice.jpg";
 import tiger_beer from "../pictures/drinks/tiger_beer.jpg";
 
 
@@ -125,7 +125,7 @@ const MenuDisplay=()=>{
               <div
                  style={{}}
               >
-                <OverFlowX 
+                <OverFlowY 
                     category="Breakfast"
                     label={label_breakfast}
                     width="200px" 
@@ -144,7 +144,7 @@ const MenuDisplay=()=>{
               <div
                 style={{}}
               >
-                  <OverFlowX 
+                  <OverFlowY 
                     category="Appetizer"
                     label={label_appetizer}
                     width="200px" 
@@ -164,7 +164,7 @@ const MenuDisplay=()=>{
               <div
                 style={{}}
               >
-                  <OverFlowX 
+                  <OverFlowY 
                     category="Main Dish"
                     label={label_main_dish}
                     width="200px" 
@@ -184,7 +184,7 @@ const MenuDisplay=()=>{
               <div
                 style={{}}
               >
-                 <OverFlowX
+                 <OverFlowY
                   category="Dessert"
                   label={label_dessert}
                   width="200px" 
