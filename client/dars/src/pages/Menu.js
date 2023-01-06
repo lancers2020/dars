@@ -31,8 +31,24 @@ import red_Horse from "../pictures/drinks/red_Horse.jpg";
 import strawberry_Juice from "../pictures/drinks/strawberry_Juice.jpg";
 import tiger_Beer from "../pictures/drinks/tiger_Beer.jpg";
 
-import banner from "../client/src/pictures/logo/banner.jpg";
+import adobong_mani from "../pictures/pulutan/adobong_mani.jpg";
+import bagnet from "../pictures/pulutan/bagnet.jpg";
+import bopis from "../pictures/pulutan/bopis.jpg";
+import buffalo_wings from "../pictures/pulutan/buffalo_wings.jpg";
+import gambas from "../pictures/pulutan/gambas.jpg";
+import isaw from "../pictures/pulutan/isaw.jpg";
+import kilawing_isda_at_baboy from "../pictures/pulutan/kilawing_isda_at_baboy.jpg";
+import kilawing_isda from "../pictures/pulutan/kilawing_isda.jpg";
+import nilasing_na_hipon from "../pictures/pulutan/nilasing_na_hipon.jpg";
+import pigar_pigar from "../pictures/pulutan/pigar_pigar.jpg";
+import pork_barbecue from "../pictures/pulutan/pork_barbecue.jpg";
+import sizzling_tufo from "../pictures/pulutan/sizzling_tufo.jpg";
+import spicy_chicken_wings from "../pictures/pulutan/spicy_chicken_wings.jpg";
+import spicy_fried_calamari from "../pictures/pulutan/spicy_fried_calamari.jpg";
+import tokwat_baboy from "../pictures/pulutan/tokwat_baboy.jpg";
+import banner from "../pictures/logo/banner.jpg";
 import OverFlowX from './components/OverFlowX';
+import OverFlowY from './components/OverFlowY';
 
 const MenuDisplay=()=>{
   var label_main_dish=[
@@ -202,13 +218,14 @@ const MenuDisplay=()=>{
               <div
                  style={{}}
               >
-                  <OverFlowX 
+                  <OverFlowY 
                     category="Drinks"
                     label={label_drinks}
-                    width="200px" 
+                    width="100%" 
                     height="200px" 
                     bgColor="pink"
-                    />        picture={pictures_drinks}
+                    picture={pictures_drinks}
+                    />
          
               </div>
           )
@@ -300,7 +317,12 @@ function Menu() {
         {/* this is the banner */}
       </section>
       <section id='section-2'>
-        <MenuDisplay/>
+        <div>
+          <MenuDisplay/>
+        </div>
+      </section>
+      <section style={{height: "1200px", backgroundColor: "yellow"}}>
+        uwu
       </section>
     </div>
  
