@@ -2,61 +2,47 @@ import React,{Component, useState} from 'react'
 import './css/menu.css';
 import Card from "../components/Card";
 
-import black_Coffee from "../pictures/breakfast/black_Coffee.jpg";
-import hot_Chocolate from "../pictures/breakfast/hot_Chocolate.jpg";
-import waffle_Blueberries from "../pictures/breakfast/waffle_Blueberries.jpg";
-import waffle_Strawberry from "../pictures/breakfast/waffle_Strawberry.jpg";
+import black_coffee from "../pictures/breakfast/black_coffee.jpg";
+import hot_chocolate from "../pictures/breakfast/hot_chocolate.jpg";
+import waffle_blueberries from "../pictures/breakfast/waffle_blueberries.jpg";
+import waffle_strawberry from "../pictures/breakfast/waffle_strawberry.jpg";
 
 import atchara from "../pictures/appetizer/atchara.jpg";
-import dynamite_Lumpia from "../pictures/appetizer/dynamite_Lumpia.jpg";
+import dynamite_lumpia from "../pictures/appetizer/dynamite_lumpia.jpg";
 import fishball from "../pictures/appetizer/fishball.jpg";
-import lumpiang_Shanghai from "../pictures/appetizer/lumpiang_Shanghai.jpg";
+import lumpiang_shanghai from "../pictures/appetizer/lumpiang_shanghai.jpg";
 
-import crispy_Pata from "..pictures/main_dish/crispy_Pata.jpg";
+import crispy_pata from "../pictures/main_dish/crispy_pata.jpg";
 import dinuguan from "../pictures/main_dish/dinuguan.jpg";
 import karekare from "../pictures/main_dish/karekare.jpg";
 import palabok from "../pictures/main_dish/palabok.jpg";
-import pancit_Bijon from "../pictures/main_dish/pancit_Bijon.jpg";
+import pancit_bijon from "../pictures/main_dish/pancit_bijon.jpg";
 import pinapaitan from "../pictures/main_dish/pinapaitan.jpg";
 
 import halo_halo from "../pictures/dessert/halo_halo.jpg";
 import kutsinta from "../pictures/dessert/kutsinta.jpg";
 import lecheflan from "../pictures/dessert/lecheflan.jpg";
-import maizcon_Yelo from "../pictures/dessert/maizcon_Yelo.jpg";
+import maizcon_yelo from "../pictures/dessert/maizcon_yelo.jpg";
 
 import heineken from "../pictures/drinks/heineken.jpg";
-import melon_Juice from "../pictures/drinks/melon_Juice.jpg";
-import pineapple_Juice from "../pictures/drinks/pineapple_Juice.jpg";
-import red_Horse from "../pictures/drinks/red_Horse.jpg";
-import strawberry_Juice from "../pictures/drinks/strawberry_Juice.jpg";
-import tiger_Beer from "../pictures/drinks/tiger_Beer.jpg";
+import melon_juice from "../pictures/drinks/melon_juice.jpg";
+import pineapple_juice from "../pictures/drinks/pineapple_juice.jpg";
+import red_horse from "../pictures/drinks/red_horse.jpg";
+import strawberry_juice from "../pictures/drinks/strawberry_juice.jpg";
+import tiger_beer from "../pictures/drinks/tiger_beer.jpg";
 
-import adobong_mani from "../pictures/pulutan/adobong_mani.jpg";
-import bagnet from "../pictures/pulutan/bagnet.jpg";
-import bopis from "../pictures/pulutan/bopis.jpg";
-import buffalo_wings from "../pictures/pulutan/buffalo_wings.jpg";
-import gambas from "../pictures/pulutan/gambas.jpg";
-import isaw from "../pictures/pulutan/isaw.jpg";
-import kilawing_isda_at_baboy from "../pictures/pulutan/kilawing_isda_at_baboy.jpg";
-import kilawing_isda from "../pictures/pulutan/kilawing_isda.jpg";
-import nilasing_na_hipon from "../pictures/pulutan/nilasing_na_hipon.jpg";
-import pigar_pigar from "../pictures/pulutan/pigar_pigar.jpg";
-import pork_barbecue from "../pictures/pulutan/pork_barbecue.jpg";
-import sizzling_tufo from "../pictures/pulutan/sizzling_tufo.jpg";
-import spicy_chicken_wings from "../pictures/pulutan/spicy_chicken_wings.jpg";
-import spicy_fried_calamari from "../pictures/pulutan/spicy_fried_calamari.jpg";
-import tokwat_baboy from "../pictures/pulutan/tokwat_baboy.jpg";
+
 import banner from "../pictures/logo/banner.jpg";
 import OverFlowX from './components/OverFlowX';
 import OverFlowY from './components/OverFlowY';
 
 const MenuDisplay=()=>{
   var label_main_dish=[
-    "crispy Pata",
+    "crispy pata",
     "dinuguan",
     "karekare",
     "palabok",
-    "pancit Bijon",
+    "pancit bijon",
     "pinapaitan" 
   ]
 
@@ -93,11 +79,11 @@ const MenuDisplay=()=>{
     
 
    var pictures_main_dish = [
-       crispy_Pata,
+       crispy_pata,
        dinuguan,
        karekare,
        palabok,
-       pancit_Bijon,
+       pancit_bijon,
        pinapaitan
    ]
 
@@ -105,30 +91,30 @@ const MenuDisplay=()=>{
        halo_halo,
        kutsinta,
        lecheflan,
-       maizcon_Yelo
+       maizcon_yelo
    ]
 
    var pictures_breakfast = [
-       black_Coffee,
-       hot_Chocolate,
-       waffle_Blueberries,
-       waffle_Strawberry
+       black_coffee,
+       hot_chocolate,
+       waffle_blueberries,
+       waffle_strawberry
    ]
 
    var pictures_drinks =[
        heineken,
-       melon_Juice,
-       pineapple_Juice,
-       red_Horse,
-       strawberry_Juice,
-       tiger_Beer
+       melon_juice,
+       pineapple_juice,
+       red_horse,
+       strawberry_juice,
+       tiger_beer
    ]
 
    var pictures_appetizer =[
        atchara,
-       dynamite_Lumpia,
+       dynamite_lumpia,
        fishball,
-       lumpiang_Shanghai   
+       lumpiang_shanghai   
    ]
 
 
