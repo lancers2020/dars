@@ -3,7 +3,7 @@ body{
   margin: 0;
 }
 .banner{
-  background-image: url("../client/dars/src/pictures/logo/banner.jpg");
+  background-image: url(../../pictures/logo/banner.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -29,4 +29,11 @@ body{
 .menu-navbar-wrapper>div{
   margin: 10px;
   background-color: gray;
+}
+
+/* overFlowY */
+.overFlowYDisplay{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: violet;
 }
