@@ -117,8 +117,9 @@ import sizzling_tufo from "../pictures/pulutan/sizzling_tufo.jpg";
 import spicy_chicken_wings from "../pictures/pulutan/spicy_chicken_wings.jpg";
 import spicy_fried_calamari from "../pictures/pulutan/spicy_fried_calamari.jpg";
 import tokwat_baboy from "../pictures/pulutan/tokwat_baboy.jpg";
-import banner from "../client/src/pictures/logo/banner.jpg";
+import banner from "../pictures/logo/banner.jpg";
 import OverFlowX from './components/OverFlowX';
+import OverFlowY from './components/OverFlowY';
 
 const MenuDisplay=()=>{
   var label_main_dish=[
@@ -481,13 +482,14 @@ const MenuDisplay=()=>{
               <div
                  style={{}}
               >
-                  <OverFlowX 
+                  <OverFlowY 
                     category="Drinks"
                     label={label_drinks}
-                    width="200px" 
+                    width="100%" 
                     height="200px" 
                     bgColor="pink"
-                    />        picture={pictures_drinks}
+                    picture={pictures_drinks}
+                    />
          
               </div>
           )
@@ -592,7 +594,12 @@ function Menu() {
         {/* this is the banner */}
       </section>
       <section id='section-2'>
-        <MenuDisplay/>
+        <div>
+          <MenuDisplay/>
+        </div>
+      </section>
+      <section style={{height: "1200px", backgroundColor: "yellow"}}>
+        uwu
       </section>
     </div>
  
