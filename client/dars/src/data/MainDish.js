@@ -3,10 +3,7 @@ import React from 'react'
 
 function MainDish() {
  const maindish={
-    "names":["arroz caldo", "beef salpicao", "bistek tagalog", "bulalo with rice", "calamares with rice", "chicken inasal with rice",
-             "crispy pata with rice", "crispy tadyang ng baka with rice", "dinuguan with rice", "garlic chicken wings with rice", "ginataang gulay with rice", "humba with rice",
-             "inihaw na liempo with rice", "inihaw na pusit with rice", "kaldereta with rice", "kare kare", "lechon kawali", "palabok",
-             "pancit bijon", "pancit guisado", "pinapaitan with rice", "pritong isda with rice", "sinigang na baboy with rice", "sisig with rice", "sizzling teriyaki squid with rice", "tostadong pork with rice"]
+    "names":["crispy Pata", "dinuguan", "karekare", "palabok", "pancit Bijon", "pinapaitan" ]
     
  }
  const Result = () =>{

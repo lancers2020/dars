@@ -3,11 +3,7 @@ import React from 'react'
 
 function Drinks(){
     const drinks={
-       "names":["absolut vodka", "banana shake", "bear beer", "becker", "budlight", "budweiser",
-                "chivas regal", "cocacola", "corona", "escudo silver", "fanta grapes", "fanta", 
-                "ginebra san miguel", "heineken", "lemon juice", "london dry gin",
-                "melon juice", "orange juice", "pepsi", "pineapple juice", "popcola", "redhorse", "sprite", 
-                "strawberry shake", "tanduay ice", "tanduay", "tiger beer", "watermelon juice"],
+       "names":["heineken", "melon Juice", "pineapple Juice", "red Horse", "strawberry Juice", "tiger Beer"],
      
     }
     const Result = () =>{
