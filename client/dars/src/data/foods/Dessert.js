@@ -3,9 +3,7 @@ import React from 'react'
 
 function Dessert(){
     const dessert={
-       "names":["bibingka", "biko", "buko salad", "cassava cake", "ginataang halohalo", "halo halo", "kutsinta",
-                "leche flan", "maiz con yelo", "mamon cake cheddar cheese", "minatamis na saging", "palitaw", 
-                "sapin sapin", "suman malagkit", "taho"], 
+      "names":["halo halo", "kutsinta", "lecheflan", "maizcon Yelo"] 
        
  
     }

@@ -3,9 +3,7 @@ import React from 'react'
 
 function Breakfast(){
     const breakfast={
-       "names":["almond milk coffee", "american coffee", "black coffee", "daing na bangus with fried rice",
-                "hot cappuccino", "hot chocolate", "hot latte", "hot milo", "hot mocha", "longganisa egg tuyo with rice", "longganisa with rice and salted egg",
-                "sisig itlog with rice", "talong itlog with rice", "tapsilog"],
+       "names":["black Coffee", "hot Chocolate", "waffle Blueberries", "waffle Strawberry"],
      
  
     }

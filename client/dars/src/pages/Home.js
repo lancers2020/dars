@@ -4,7 +4,7 @@ import Testing1 from '../test/dave/Testing1'
 import Appetizer from '../data/foods/Appetizer'
 import Drinks from '../data/foods/Drinks'
 import Dessert from '../data/foods/Dessert'
-import Pulutan from '../data/foods/Pulutan'
+import Breakfast from '../data/foods/Breakfast'
 
 function Home() {
   return (
