@@ -11,14 +11,14 @@ body{
   max-width: 100vw;
 }
 .menu-wrapper{
-  background-color: rgb(190, 187, 187);
+  background-color: rgb(241, 17, 17);
   display: flex;
   flex-direction: column;
   text-align: left;
 }
 #section-2{
   height: 700px;
-  background-color: red;
+  background-color:#DD7230;
 }
 
 /* menu-navbar */
@@ -28,12 +28,12 @@ body{
 }
 .menu-navbar-wrapper>div{
   margin: 10px;
-  background-color: gray;
+  background-color: #DD7230;
 }
 
 /* overFlowY */
 .overFlowYDisplay{
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: violet;
+  background-color: rgb(247, 199, 168);
 }

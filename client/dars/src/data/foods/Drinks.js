@@ -3,7 +3,8 @@ import React from 'react'
 
 function Drinks(){
     const drinks={
-       "names":["heineken", "melon Juice", "pineapple Juice", "red Horse", "strawberry Juice", "tiger Beer"],
+       "names":["Heineken", "Melon Juice", "Pineapple Juice", "Red Horse",
+                "Strawberry Juice", "Tiger Beer", "Coca cola", "Corona", "Lemon juice"],
      
     }
     const Result = () =>{

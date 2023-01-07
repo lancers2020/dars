@@ -29,8 +29,8 @@ import palabok from "../pictures/main_dish/palabok.jpg";
 import pancit_bijon from "../pictures/main_dish/pancit_bijon.jpg";
 import pinapaitan from "../pictures/main_dish/pinapaitan.jpg";
 import inihaw_na_pusit from "../pictures/main_dish/inihaw_na_pusit.jpg";
-import lechon_kawali from "../pictures/main_dish/lechon_kawali";
-import pritong_isda from "../pictures/main_dish/pritong_isda";
+import lechon_kawali from "../pictures/main_dish/lechon_kawali.jpg";
+import pritong_isda from "../pictures/main_dish/pritong_isda.jpg";
 
 import halo_halo from "../pictures/dessert/halo_halo.jpg";
 import kutsinta from "../pictures/dessert/kutsinta.jpg";
@@ -84,8 +84,8 @@ const MenuDisplay=()=>{
   var label_breakfast=[
         "Black Coffee",
         "Hot Chocolate",
-        "Waffle Blueberries",
-        "Waffle Strawberry",
+        "Waffle blueberries",
+        "Waffle strawberry",
         "Daing with rice",
         "Hot milo",
         "Hot mocha",
@@ -193,7 +193,7 @@ const MenuDisplay=()=>{
                     label={label_breakfast}
                     width="200px" 
                     height="200px" 
-                    bgColor="pink"
+                    bgColor="orange"
                     picture={pictures_breakfast}
                  />
               </div>
@@ -212,7 +212,7 @@ const MenuDisplay=()=>{
                     label={label_appetizer}
                     width="200px" 
                     height="200px" 
-                    bgColor="pink"
+                    bgColor="orange"
                     picture={pictures_appetizer}  
                 /> 
               </div>
@@ -232,7 +232,7 @@ const MenuDisplay=()=>{
                     label={label_main_dish}
                     width="200px" 
                     height="200px" 
-                    bgColor="pink"
+                    bgColor="orange"
                     picture={pictures_main_dish}
                   />
               </div>
@@ -252,7 +252,7 @@ const MenuDisplay=()=>{
                   label={label_dessert}
                   width="200px" 
                   height="200px" 
-                  bgColor="pink"
+                  bgColor="orange"
                   picture={pictures_dessert}
                  />
               </div>               
@@ -272,7 +272,7 @@ const MenuDisplay=()=>{
                     label={label_drinks}
                     width="100%" 
                     height="200px" 
-                    bgColor="pink"
+                    bgColor="orange"
                     picture={pictures_drinks}
                     />
          
