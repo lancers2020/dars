@@ -14,6 +14,10 @@ function Navbar() {
         </div>
 
         <div>
+         <Link to="/about">About</Link>
+        </div>
+
+        <div>
          <Link to="/delivery">Delivery</Link>
         </div>
 
@@ -21,9 +25,7 @@ function Navbar() {
          <Link to="/login">Login</Link>
         </div>
 
-        <div>
-         <Link to="/about">About</Link>
-        </div>
+       
     </div>
   )
 }

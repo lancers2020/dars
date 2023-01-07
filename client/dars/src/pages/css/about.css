@@ -46,8 +46,7 @@ iframe{
     border-radius:0;
     background:white;
 }
-    
-    
+   
 @media (max-width: 500px){
     .videos::-webkit-scrollbar{
     display:none;

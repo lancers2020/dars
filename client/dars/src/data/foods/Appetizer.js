@@ -3,7 +3,8 @@ import React from 'react'
 
 function Appetizer(){
     const appetizer={
-       "names":["atchara", "dynamite Lumpia", "fishball", "lumpiang Shanghai"],
+       "names":["Atchara", "Dynamite lumpia", "Fishball", "Lumpiang shanghai","Beef empanada",
+                "Cheese stick", "Chicharon bulaklak", "Crispy chicken skin", "crispy tenga"],
        
  
     }

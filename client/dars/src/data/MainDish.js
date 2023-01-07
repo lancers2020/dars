@@ -3,7 +3,8 @@ import React from 'react'
 
 function MainDish() {
  const maindish={
-    "names":["crispy Pata", "dinuguan", "karekare", "palabok", "pancit Bijon", "pinapaitan" ]
+    "names":["Crispy pata", "Dinuguan", "Kare kare", "Palabok", "Pancit bijon",
+             "Pinapaitan", "Inihaw na pusit", "Lechon kawali", "pritong isda"],
     
  }
  const Result = () =>{
