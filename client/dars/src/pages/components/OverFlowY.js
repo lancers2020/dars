@@ -19,7 +19,7 @@ function OverFlowY({
                 picture.map((item, key)=>{
                   return(
                     <div>
-                      <Card width={width} height={height} bgColor={bgColor} name={label[key]} picture={item}/>
+                      <Card price={price[key]} width={width} height={height} bgColor={bgColor} name={label[key]} picture={item}/>
                     </div>
                   )
                 })
