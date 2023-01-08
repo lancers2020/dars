@@ -5,7 +5,10 @@ function Appetizer(){
     const appetizer={
        "names":["Atchara", "Dynamite lumpia", "Fishball", "Lumpiang shanghai","Beef empanada",
                 "Cheese stick", "Chicharon bulaklak", "Crispy chicken skin", "crispy tenga"],
-       
+       "desc":["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet",
+               "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", 
+               "Lorem ipsum dolor sit amet"],
+       "price":["9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php",]
  
     }
     const Result = () =>{

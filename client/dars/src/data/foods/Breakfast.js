@@ -5,7 +5,10 @@ function Breakfast(){
     const breakfast={
        "names":["Black Coffee", "Hot Chocolate", "Waffle blueberries", "Waffle Strawberry",
                 "Daing with rice", "Hot milo", "Hot mocha", "Longganisa with rice", "Tocino with rice"],
-     
+       "desc":["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet",
+                "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", 
+                "Lorem ipsum dolor sit amet"],
+       "price":["9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php",]
  
     }
     const Result = () =>{
