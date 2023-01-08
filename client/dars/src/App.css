@@ -1,9 +1,31 @@
 .navbar-wrapper{
-  justify-content: center;
-  display: flex; 
-  background-color: red;
+  justify-content: space-between;
+  display: flex;
+  font-size: 20px;
+}
+.navbar-wrapper>div:nth-child(1){
+  padding: 30px;
 }
 .navbar-wrapper>div{
-  padding: 30px;
   background-color: yellow;
+  justify-content: center;
+  display: flex;
+}
+.navbar-wrapper a{
+  text-decoration: none;
+  color: black;
+}
+.navbar-wrapper>div:nth-child(1){
+  margin-left: 100px;
+}
+.navbar-wrapper>.right>div,
+.navbar-wrapper>.center>div{
+  padding: 30px 80px;
+  background-color: green;
+}
+
+/* hover */
+.navbar-wrapper>.right>div:hover,
+.navbar-wrapper>.center>div:hover{
+  background-color: black;
 }

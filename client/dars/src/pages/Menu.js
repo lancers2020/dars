@@ -93,94 +93,96 @@ const MenuDisplay=()=>{
         "Tocino with rice"
   ]
 
-    var label_drinks=[
-        "Heineken",
-        "Melon Juice",
-        "Pineapple Juice",
-        "Red Horse",
-        "Strawberry Juice",
-        "Tiger Beer",
-        "Coca cola",
-        "Corona",
-        "Lemon juice"
-    ]
+  var label_drinks=[
+      "Heineken",
+      "Melon Juice",
+      "Pineapple Juice",
+      "Red Horse",
+      "Strawberry Juice",
+      "Tiger Beer",
+      "Coca cola",
+      "Corona",
+      "Lemon juice"
+  ]
 
-    var label_appetizer=[
-        "Atchara",
-        "Dynamite lumpia",
-        "Fishball",
-        "Lumpiang shanghai",
-        "Beef empanada",
-        "Cheese stick",
-        "Chicharon bulaklak",
-        "Crispy chicken skin",
-        "crispy tenga"
-    ]
+  var label_appetizer=[
+      "Atchara",
+      "Dynamite lumpia",
+      "Fishball",
+      "Lumpiang shanghai",
+      "Beef empanada",
+      "Cheese stick",
+      "Chicharon bulaklak",
+      "Crispy chicken skin",
+      "crispy tenga"
+  ]
 
     
 
-   var pictures_main_dish = [
-       crispy_pata,
-       dinuguan,
-       karekare,
-       palabok,
-       pancit_bijon,
-       pinapaitan,
-       inihaw_na_pusit,
-       lechon_kawali,
-       pritong_isda
+  var pictures_main_dish = [
+      crispy_pata,
+      dinuguan,
+      karekare,
+      palabok,
+      pancit_bijon,
+      pinapaitan,
+      inihaw_na_pusit,
+      lechon_kawali,
+      pritong_isda
 
-   ]
+  ]
 
-   var pictures_dessert = [
-       halo_halo,
-       kutsinta,
-       lecheflan,
-       maizcon_yelo,
-       bibingka,
-       biko,
-       buko_salad,
-       ginataang_halohalo,
-       minatamis_na_saging
-   ]
+  var pictures_dessert = [
+      halo_halo,
+      kutsinta,
+      lecheflan,
+      maizcon_yelo,
+      bibingka,
+      biko,
+      buko_salad,
+      ginataang_halohalo,
+      minatamis_na_saging
+  ]
 
-   var pictures_breakfast = [
-       black_coffee,
-       hot_chocolate,
-       waffle_blueberries,
-       waffle_strawberry,
-       daing_with_rice,
-       hot_milo,
-       hot_mocha,
-       longganisa_with_rice,
-       tocino_with_rice
-   ]
+  var pictures_breakfast = [
+      black_coffee,
+      hot_chocolate,
+      waffle_blueberries,
+      waffle_strawberry,
+      daing_with_rice,
+      hot_milo,
+      hot_mocha,
+      longganisa_with_rice,
+      tocino_with_rice
+  ]
 
-   var pictures_drinks =[
-       heineken,
-       melon_juice,
-       pineapple_juice,
-       red_horse,
-       strawberry_juice,
-       tiger_beer,
-       coca_cola,
-       corona,
-       lemon_juice
-   ]
+  var pictures_drinks =[
+      heineken,
+      melon_juice,
+      pineapple_juice,
+      red_horse,
+      strawberry_juice,
+      tiger_beer,
+      coca_cola,
+      corona,
+      lemon_juice
+  ]
 
-   var pictures_appetizer =[
-       atchara,
-       dynamite_lumpia,
-       fishball,
-       lumpiang_shanghai,
-       beef_empanada,
-       cheese_stick,
-       chicharon_bulaklak,
-       crispy_chicken_skin,
-       crispy_tenga   
-   ]
+  var pictures_appetizer =[
+      atchara,
+      dynamite_lumpia,
+      fishball,
+      lumpiang_shanghai,
+      beef_empanada,
+      cheese_stick,
+      chicharon_bulaklak,
+      crispy_chicken_skin,
+      crispy_tenga   
+  ]
 
-
+  var prices = [
+    20, 34, 200, 45, 17, 58, 39, 159, 310
+  ]
 
   const Breakfast=()=>{
       if(isBreakfast===true){
@@ -195,6 +197,7 @@ const MenuDisplay=()=>{
                     height="200px" 
                     bgColor="orange"
                     picture={pictures_breakfast}
+                    price={prices}
                  />
               </div>
           )
@@ -362,8 +365,11 @@ function Menu() {
   return (
 
     <div className='menu-wrapper'>
-      <section id="section-1" className='banner'>
+      <section id="section-1">
         {/* this is the banner */}
+        <div className='banner'>
+
+        </div>
       </section>
       <section id='section-2'>
         <div>
