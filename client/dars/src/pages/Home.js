@@ -5,7 +5,6 @@ import Appetizer from '../data/foods/Appetizer'
 import Drinks from '../data/foods/Drinks'
 import Dessert from '../data/foods/Dessert'
 import Breakfast from '../data/foods/Breakfast'
-import Login from '../test/sheryl/Testing2'
 
 function Home() {
   return (
