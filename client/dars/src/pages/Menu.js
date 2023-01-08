@@ -368,8 +368,10 @@ function Menu() {
   return (
 
     <div className='menu-wrapper'>
-      <section id="section-1" className='banner'>
-         {/*this is the banner */}
+      <section id="section-1">
+        <div className='banner'>
+
+        </div>
      </section>
       <section id='section-2'>
         <div>

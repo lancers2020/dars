@@ -14,7 +14,7 @@ function Appetizer(){
     const Result = () =>{
        let sample = [];
        for(let i = 0; i < appetizer.names.length; i++){
-           sample.push(appetizer.names.length[i]);
+           sample.push(appetizer.names.desc.price.length[i]);
        }
        return sample;
     }

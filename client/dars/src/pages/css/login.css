@@ -7,7 +7,7 @@
     gap: 20px;
     height: 100vh;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    background-image:  url(../../pictures/logo/background2.jpg);;
+    background-image:  url(../../pictures/logo/background2.jpg);
   }
 
   input[type="text"],
@@ -20,14 +20,14 @@
     margin-top: 10px;
     cursor: pointer;
     font-size: 20px;
-    background: rgb(231, 231, 21);
-    border: 1px solid #1a1817;
-    color: rgb(243, 231, 231);
+    background: rgb(248, 225, 20);
+    border: 1px solid #f75b0d;
+    color: rgb(83, 71, 71);
     padding: 10px 20px;
   }
   
   input[type="submit"]:hover {
-    background: #41e210;
+    background: #fc0606;
   }
   
   .button-container {
