@@ -52,9 +52,14 @@ import coca_cola from "../pictures/drinks/coca_cola.jpg";
 import corona from "../pictures/drinks/corona.jpg";
 import lemon_juice from "../pictures/drinks/lemon_juice.jpg";
 
-import banner from "../pictures/logo/banner.jpg";
 import OverFlowX from './components/OverFlowX';
 import OverFlowY from './components/OverFlowY';
+import logo from "../pictures/logo/logo.jpg";
+
+
+
+
+
 
 const MenuDisplay=()=>{
   var label_main_dish=[
@@ -358,13 +363,14 @@ const MenuDisplay=()=>{
 }
 
 
+
 function Menu() {
   return (
 
     <div className='menu-wrapper'>
       <section id="section-1" className='banner'>
-        {/* this is the banner */}
-      </section>
+         {/*this is the banner */}
+     </section>
       <section id='section-2'>
         <div>
           <MenuDisplay/>
