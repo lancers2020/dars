@@ -1,8 +1,8 @@
-import React,{useState} from "react"
+import React,{useState, Component} from "react"
 import Form from "react-bootstrap/Form"
 import Button from "react-bootstrap/Button"
-import "./Login.css"
-import Testing2 from "../sheryl/Testing2"
+import "../../pages/css/login.css"
+import Testing2 from "./Testing2"
 
 
 
