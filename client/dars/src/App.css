@@ -1,13 +1,16 @@
 .navbar-wrapper{
+  top: 0;
+  position: fixed;
   justify-content: space-between;
   display: flex;
-  font-size: 20px;
+  /* font-size: 20px; */
+  width: 100%;
+  background-color: white;
 }
 .navbar-wrapper>div:nth-child(1){
   padding: 30px;
 }
 .navbar-wrapper>div{
-  background-color: yellow;
   justify-content: center;
   display: flex;
 }
@@ -18,14 +21,17 @@
 .navbar-wrapper>div:nth-child(1){
   margin-left: 100px;
 }
-.navbar-wrapper>.right>div,
-.navbar-wrapper>.center>div{
+.navbar-wrapper>.right>div>.link_right,
+.navbar-wrapper>.center>div>.link_center{
   padding: 30px 80px;
-  background-color: green;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* hover */
-.navbar-wrapper>.right>div:hover,
-.navbar-wrapper>.center>div:hover{
-  background-color: black;
+.navbar-wrapper>.right>div>.link_right:hover,
+.navbar-wrapper>.center>div>.link_center:hover{
+  background-color: rgba(255, 232, 232, 0.5);
 }

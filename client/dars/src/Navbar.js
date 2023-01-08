@@ -10,24 +10,24 @@ function Navbar() {
         </div>
         <div className='center'>
           <div>
-            <Link to="/">Home</Link>
+            <Link className='link_center' to="/">Home</Link>
           </div>
 
           <div>
-          <Link to="/menu">Menu</Link>
+            <Link className='link_center' to="/menu">Menu</Link>
           </div>
 
           <div>
-          <Link to="/about">About</Link>
+            <Link className='link_center' to="/about">About</Link>
           </div>
 
           <div>
-          <Link to="/delivery">Delivery</Link>
+            <Link className='link_center' to="/delivery">Delivery</Link>
           </div>
         </div>
         <div className='right'>
           <div>
-          <Link to="/login">Login</Link>
+          <Link className='link_right' to="/login">Login</Link>
           </div>
         </div>
     </div>

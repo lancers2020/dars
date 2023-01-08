@@ -6,15 +6,19 @@ body{
   background-image: url(../../pictures/logo/menu.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   border-radius: 20px;
 }
 .menu-wrapper{
-  background-color: rgb(241, 17, 17);
+  background-color: rgb(255, 225, 150);
+  padding: 20px;
   display: flex;
   flex-direction: column;
   text-align: left;
+  margin: 20px;
+  border-radius: 15px;
+  margin-top: 82px;
 }
 #section-1{
   display: flex;
@@ -22,8 +26,8 @@ body{
   align-items: center;
 }
 #section-2{
-  height: 700px;
-  background-color:#DD7230;
+  height: 480px;
+  /* background-color:#DD7230; */
 }
 
 /* menu-navbar */
@@ -34,6 +38,17 @@ body{
 .menu-navbar-wrapper>div{
   margin: 10px;
   background-color: #DD7230;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  border: 2px solid #DD7230;
+  cursor: pointer;
+  font-family: cursive;
+}
+.menu-navbar-wrapper>div:hover{
+  background-color: rgb(255, 225, 150);
+  border: 2px solid #ab4607;
+  color: black;
 }
 
 /* overFlowY */
