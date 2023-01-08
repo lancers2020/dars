@@ -5,10 +5,7 @@ function MainDish() {
  const maindish={
     "names":["Crispy pata", "Dinuguan", "Kare kare", "Palabok", "Pancit bijon",
              "Pinapaitan", "Inihaw na pusit", "Lechon kawali", "pritong isda"],
-     "desc":["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet",
-             "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", 
-             "Lorem ipsum dolor sit amet"],
-     "price":["9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php",]
+    
  }
  const Result = () =>{
    let sample = [];

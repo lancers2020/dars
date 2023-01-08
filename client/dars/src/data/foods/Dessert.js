@@ -5,10 +5,7 @@ function Dessert(){
     const dessert={
       "names":["Halo halo", "Kutsinta", "Lecheflan", "Maiz con Yelo",
                "Bibingka", "Biko", "Buko salad", "Ginataang halo halo", "minatamis na saging"],                
-      "desc":["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet",
-               "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", 
-               "Lorem ipsum dolor sit amet"],
-      "price":["9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php", "9.99 php",]
+       
  
     }
     const Result = () =>{

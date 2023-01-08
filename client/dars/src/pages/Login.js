@@ -1,84 +1,43 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom";
+import React,{useState, Component} from 'react'
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 import "./css/login.css";
 
-function App() {
- 
-  const [errorMessages, setErrorMessages] = useState({});
-  const [isSubmitted, setIsSubmitted] = useState(false);
+function Login() {
+  const[email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
+  function validateForm() {
+    return email.length > 0 && password.length > 0;
+ }
 
-  const database = [
-    {
-      username: "user1",
-      password: "pass1"
-    },
-    {
-      username: "user2",
-      password: "pass2"
-    }
-  ];
-
-  const errors = {
-    uname: "invalid username",
-    pass: "invalid password"
-  };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-
-    var { uname, pass } = document.forms[0];
-
-    const userData = database.find((user) => user.username === uname.value);
-
-    if (userData) {
-      if (userData.password !== pass.value) {
-       
-        setErrorMessages({ name: "pass", message: errors.pass });
-      } else {
-        setIsSubmitted(true);
-      }
-    } else {
-      setErrorMessages({ name: "uname", message: errors.uname });
-    }
-  };
-
-
-  const renderErrorMessage = (name) =>
-    name === errorMessages.name && (
-      <div className="error">{errorMessages.message}</div>
-    );
-
- 
-  const renderForm = (
-    <div className="form">
-      <form onSubmit={handleSubmit}>
-        <div className="input-container">
-          <label>Username </label>
-          <input type="text" name="username" required />
-          {renderErrorMessage("username")}
-        </div>
-        <div className="input-container">
-          <label>Password </label>
-          <input type="password" name="pass" required />
-          {renderErrorMessage("pass")}
-        </div>
-        <div className="button-container">
-          <input type="submit" />
-        </div>
-      </form>
-    </div>
-  );
-
+ function handleSubmit(event){
+     event.preventDefault();
+ }
   return (
-    <div className="app">
-      <div className="login-form">
-      <div className="title">Sign In</div>
-        {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
+      <div className="Login">
+          <Form onSubmit={handleSubmit}>
+              <Form.Group size="lg" controlled="email">
+                  <Form.Label>Email</Form.Label>
+                    <Form.Control autoFocus type="email" value="{email}"
+                    onChange={(e) => setEmail(e.target.value)}/>
+              </Form.Group>
+
+            <Form.Group size="lg" controlled="password">
+              <Form.Label>Password</Form.Label>
+               <Form.Control type="password" value={password}
+               onChange={(e) => setPassword(e.target.value)}/>
+
+            </Form.Group>
+             <Button block size="lg" type="submit" disabled={!validateForm()}>
+              Login
+             </Button>
+          </Form>
       </div>
-    </div>
+     
   );
 }
 
-export default App;
+export default Login
+
 
