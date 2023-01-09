@@ -6,6 +6,7 @@ import Drinks from '../data/foods/Drinks'
 import Dessert from '../data/foods/Dessert'
 import Breakfast from '../data/foods/Breakfast'
 
+
 function Home() {
   return (
     <div style={{color: "white"}}>
