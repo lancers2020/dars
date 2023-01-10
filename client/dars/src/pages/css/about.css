@@ -41,9 +41,16 @@ iframe{
     background:white;
 }
    
-@media (max-width: 500px){
+/*@media (max-width: 500px){
     .videos::-webkit-scrollbar{
     display:none;
 }
+}*/
+
+.container {
+    display: flex;
+    height: 600px;
 }
-    
+
+
+
