@@ -2,6 +2,7 @@
     width: 100vw;
     min-height: 100vh;
     color: white (255, 255, 255, 0.8);
+    margin-top: 82px;
 }
 
 .parent{
@@ -48,9 +49,18 @@ iframe{
 }*/
 
 .container {
-    display: flex;
     height: 600px;
+    background-image: url(../../pictures/logo/nimels.jpg);
+    background-size: contain;
+    width: 40%;
+    background-repeat: no-repeat;
 }
-
+.about>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+}
+.about_details{
+    background-color: red;
+}
 
 
