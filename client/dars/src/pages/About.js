@@ -9,7 +9,6 @@ function About (){
 
       <div>
           <div className="container">
-              <img src="../pictures/logo/eiliv_aceron.jpg" width= "50px" height= "50px"/> 
           </div>
           <div className="about_details">
             <span>About Our Restaurant</span>
