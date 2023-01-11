@@ -42,11 +42,11 @@ iframe{
     background:white;
 }
    
-/*@media (max-width: 500px){
+@media (max-width: 500px){
     .videos::-webkit-scrollbar{
     display:none;
 }
-}*/
+}
 
 .container {
     height: 600px;
@@ -62,5 +62,4 @@ iframe{
 .about_details{
     background-color: red;
 }
-
 
