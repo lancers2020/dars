@@ -1,15 +1,16 @@
 import React, {Component} from 'react'
 import Card from '../components/Card'
 import './css/about.css'
+import nimels from "../pictures/logo/nimels.jpg"
 
 
 function About (){
   return(
     <div>
-      <div className="container">
-         <span>About Our Restaurant</span>
+      <div className='container'>
+        <img width="100px" height="100px" src={nimels} alt="menu" />
+        <span>About Our Restaurant</span>
       </div>
-      <img width="100px" height="100px" scr="../pictures/logo/menu.jpg" alt="menu" />
       <h3>Browse through some of our videos</h3>
       <div className="parent">
         <div className="child">

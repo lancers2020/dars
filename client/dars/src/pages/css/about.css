@@ -49,8 +49,9 @@ iframe{
 }
 
 .container {
+    margin-top: 82px;
+    background-color: lightgrey;
     height: 600px;
-    background-image: url(../../pictures/logo/nimels.jpg);
     background-size: contain;
     width: 40%;
     background-repeat: no-repeat;
