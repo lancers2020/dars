@@ -82,15 +82,15 @@ const MenuDisplay=()=>{
   ]
 
   var label_breakfast=[
-        "Black Coffee",
-        "Hot Chocolate",
-        "Waffle blueberries",
-        "Waffle strawberry",
-        "Daing with rice",
-        "Hot milo",
-        "Hot mocha",
-        "Longganisa with rice",
-        "Tocino with rice"
+     "Black Coffee",
+     "Hot Chocolate",
+     "Blueberries waffle",
+     "Strawberry waffle",
+     "Daing with rice",
+     "Hot milo",
+     "Hot mocha",
+     "Longganisa with rice",
+     "Tocino with rice"
   ]
 
   var label_drinks=[
@@ -181,10 +181,10 @@ const MenuDisplay=()=>{
   ]
 
   var prices = [
-    20, 34, 200, 45, 17, 58, 39, 159, 310
+    15.99, 17.99, 9.99, 9.99, 25.99, 17.99, 13.99, 19.99, 18.99
   ]
 
-  var description = "lorem uwu ipsum uwu dolor uwu uwu uwuuuuuuuuuu";
+  var description = "chocolaty aroma with note of vanilla-like swiss, and dark chocolate";
 
   var color = "white";
 
