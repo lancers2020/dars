@@ -8,7 +8,12 @@
     height: 100vh;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     background-image: url(../../pictures/logo/restobar1.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
   }
+
+
      
   input[type="text"],
   input[type="password"] {
