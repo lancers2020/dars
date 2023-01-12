@@ -2,6 +2,41 @@ import React,{useState} from 'react'
 
 
 
+function Testing1({foods}) {
+   const breakfast={
+    "names":[
+       "Black Coffee","Hot Chocolate","Blueberries Waffle","Strawberry Waffle","Daing with Rice","Hot Milo",
+       "Hot Mocha","Longganisa with Rice","Tocino with Rice"],
+    "price":["15.99","17.99","9.99","12.99","25.99","17.99","13.99","19.99","18.99"]    
+}
+
+  const appetizer={
+    "names":["Atchara","Dynamite Lumpia","Fishball","Lumpiang Shanghai",
+             "Beef Empanada","Cheese Stick","Chicharon bulaklak","Crispy Chicken skin","Crispy Tenga"],
+    "price":["8.99","12.99","13.99","11.99","18.99","14.99","13.99","10.99","11.99"]  
+}
+
+  const mainDish={
+    "names":["Crispy Pata","Dinuguan","Kare kare","Palabok","Pancit Bijon",
+             "Pinapaitan","Inihaw na Pusit","Lechon Kawali","Pritong Isda"],
+    "price":["15.99","17.99","13.99","16.99","21.99","18.99","19.99","11.99","13.99"]  
+}
+
+  const dessert={
+    "names":["Halo halo","Kutsinta","Leche Flan","Maiz con yelo","Bibingka",
+             "Biko","Buko Salad","Ginataang Halo halo","Minatamis na Saging"],
+    "price":["8.99","7.99","10.99","11.99","13.99","7.99","6.99","14.99","15.99"]  
+}
+
+  const drinks={
+    "names":["Heineken","Melon Juice","Pineapple Juice","red Horse","Strawberry Juice",
+             "Tiger Beer","Coca Cola","Corona","Lemon Juice"],
+    "price":["4.99","5.99","7.99","9.99","6.99","7.99","5.99","8.99","3.99"]  
+}
+
+ 
+
+
 function Testing1(){
     const Breakfast=()=>{
         if(isBreakfast===true){
@@ -162,6 +197,9 @@ function Testing1(){
             <Display/>
         </div>       
      )
- }
+  }
+}
+
+
 
  export default Testing1
