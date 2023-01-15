@@ -75,7 +75,9 @@ function Login() {
       <div className="login-form">
         <div className="title">Sign In</div>
         {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
+        <button>Don't have an account? Register here.</button>
       </div>
+     
     </div>
   );
 }

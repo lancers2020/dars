@@ -11,6 +11,15 @@ import hot_milo from "../pictures/breakfast/hot_milo.jpg";
 import hot_mocha from "../pictures/breakfast/hot_mocha.jpg";
 import longganisa_with_rice from "../pictures/breakfast/longganisa_with_rice.jpg";
 import tocino_with_rice from "../pictures/breakfast/tocino_with_rice.jpg";
+import arroz_caldo from "../pictures/breakfast/arroz_caldo.jpg";
+import corn_silog from "../pictures/breakfast/corn_silog.jpg";
+import fried_egg_hotdog_bacon from "../pictures/breakfast/fried_egg_hotdog_bacon.jpg";
+import hot_silog from "../pictures/breakfast/hot_silog.jpg";
+import silog from "../pictures/breakfast/silog.jpg";
+import spam_silog from "../pictures/breakfast/spam_silog.jpg";
+import tapsilog from "../pictures/breakfast/tapsilog.jpg";
+import tortang_talong from "../pictures/breakfast/tortang_talong.jpg";
+import tuyo_with_rice from "../pictures/breakfast/tuyo_with_rice.jpg";
 
 import atchara from "../pictures/appetizer/atchara.jpg";
 import dynamite_lumpia from "../pictures/appetizer/dynamite_lumpia.jpg";
@@ -21,6 +30,12 @@ import cheese_stick from "../pictures/appetizer/cheese_stick.jpg";
 import chicharon_bulaklak from "../pictures/appetizer/chicharon_bulaklak.jpg";
 import crispy_chicken_skin from "../pictures/appetizer/crispy_chicken_skin.jpg";
 import crispy_tenga from "../pictures/appetizer/crispy_tenga.jpg";
+import baked_tahong from "../pictures/appetizer/baked_tahong.jpg";
+import camaron_rebosado from "../pictures/appetizer/camaron_rebosado.jpg";
+import lianas_banana from "../pictures/appetizer/lianas_banana.jpg";
+import lumpiang_ubod from "../pictures/appetizer/lumpiang_ubod.jpg";
+import onion_ring from "../pictures/appetizer/onion_ring.jpg";
+import rellenong_hipon from "../pictures/appetizer/rellenong_hipon.jpg";
 
 import crispy_pata from "../pictures/main_dish/crispy_pata.jpg";
 import dinuguan from "../pictures/main_dish/dinuguan.jpg";
@@ -31,6 +46,18 @@ import pinapaitan from "../pictures/main_dish/pinapaitan.jpg";
 import inihaw_na_pusit from "../pictures/main_dish/inihaw_na_pusit.jpg";
 import lechon_kawali from "../pictures/main_dish/lechon_kawali.jpg";
 import pritong_isda from "../pictures/main_dish/pritong_isda.jpg";
+import batchoy from "../pictures/main_dish/batchoy.jpg";
+import bistek_tagalog from "../pictures/main_dish/bistek_tagalog.jpg";
+import ginataang_manok from "../pictures/main_dish/ginataang_manok.jpg";
+import kinilaw_na_isda from "../pictures/main_dish/kinilaw_na_isda.jpg";
+import menudo from "../pictures/main_dish/menudo.jpg";
+import pinakbet from "../pictures/main_dish/pinakbet.jpg";
+import pork_sisig from "../pictures/main_dish/pork_sisig.jpg";
+import sinigang_na_hipon from "../pictures/main_dish/sinigang_na_hipon.jpg";
+import sinigang_with_bagnet from "../pictures/main_dish/sinigang_with_bagnet.jpg";
+import sisig from "../pictures/main_dish/sisig.jpg";
+import tinola from "../pictures/main_dish/tinola.jpg";
+import tostadong_pork from "../pictures/main_dish/tostadong_pork.jpg";
 
 import halo_halo from "../pictures/dessert/halo_halo.jpg";
 import kutsinta from "../pictures/dessert/kutsinta.jpg";
@@ -41,6 +68,15 @@ import biko from "../pictures/dessert/biko.jpg";
 import buko_salad from "../pictures/dessert/buko_salad.jpg";
 import ginataang_halohalo from "../pictures/dessert/ginataang_halohalo.jpg";
 import minatamis_na_saging from "../pictures/dessert/minatamis_na_saging.jpg";
+import buko_pandan from "../pictures/dessert/buko_pandan.jpg";
+import buko_pie from "../pictures/dessert/buko_pie.jpg";
+import pichi_pichi from "../pictures/dessert/pichi_pichi.jpg";
+import puto_bumbong from "../pictures/dessert/puto_bumbong.jpg";
+import puto from "../pictures/dessert/puto.jpg";
+import sapin_sapin  from "../pictures/dessert/sapin_sapin.jpg";
+import suman_latik from "../pictures/dessert/suman_latik.jpg";
+import taho from "../pictures/dessert/taho.jpg";
+import turon from "../pictures/dessert/turon.jpg";
 
 import heineken from "../pictures/drinks/heineken.jpg";
 import melon_juice from "../pictures/drinks/melon_juice.jpg";
@@ -51,6 +87,7 @@ import tiger_beer from "../pictures/drinks/tiger_beer.jpg";
 import coca_cola from "../pictures/drinks/coca_cola.jpg";
 import corona from "../pictures/drinks/corona.jpg";
 import lemon_juice from "../pictures/drinks/lemon_juice.jpg";
+
 
 import banner from "../pictures/logo/banner.jpg";
 import OverFlowX from './components/OverFlowX';
@@ -66,7 +103,19 @@ const MenuDisplay=()=>{
     "Pinapaitan",
     "Inihaw na pusit",
     "Lechon kawali",
-    "pritong isda" 
+    "Pritong isda",
+    "Batchoy",
+    "Bistek tagalog",
+    "Ginataang manok",
+    "Kinilaw na isda",
+    "Menudo",
+    "pinakbet",
+    "Pork sisig",
+    "Sinigang na hapon",
+    "Sinigang with bagnet",
+    "Sisig",
+    "Tinola",
+    "Tostadong pork"
   ]
 
   var label_dessert=[
@@ -78,7 +127,16 @@ const MenuDisplay=()=>{
      "Biko",
      "Buko salad",
      "Ginataang halo halo",
-     "Minatamis na saging"
+     "Minatamis na saging",
+     "Buko pandan",
+     "Buko pie",
+     "Pichi pichi",
+     "Puto bumbong",
+     "Puto",
+     "Sapin sapin",
+     "Suman latik",
+     "Taho",
+     "Turon"
   ]
 
   var label_breakfast=[
@@ -90,7 +148,16 @@ const MenuDisplay=()=>{
      "Hot milo",
      "Hot mocha",
      "Longganisa with rice",
-     "Tocino with rice"
+     "Tocino with rice",
+     "Arroz caldo",
+     "Corn silog",
+     "Fried egg,hotdog,bacon",
+     "Hot silog",
+     "Silog",
+     "Spam silog",
+     "Tapsilog",
+     "Tortang talong",
+     "Tuyo with rice"
   ]
 
   var label_drinks=[
@@ -103,6 +170,7 @@ const MenuDisplay=()=>{
       "Coca cola",
       "Corona",
       "Lemon juice"
+     
   ]
 
   var label_appetizer=[
@@ -114,7 +182,13 @@ const MenuDisplay=()=>{
       "Cheese stick",
       "Chicharon bulaklak",
       "Crispy chicken skin",
-      "crispy tenga"
+      "Crispy tenga",
+      "Baked tahong",
+      "Camaron rebosado",
+      "Lianas banana",
+      "Lumpiang ubod",
+      "Onion ring",
+      "Rellenong hipon"
   ]
 
     
@@ -128,7 +202,19 @@ const MenuDisplay=()=>{
       pinapaitan,
       inihaw_na_pusit,
       lechon_kawali,
-      pritong_isda
+      pritong_isda,
+      batchoy,
+      bistek_tagalog,
+      ginataang_manok,
+      kinilaw_na_isda,
+      menudo,
+      pinakbet,
+      pork_sisig,
+      sinigang_na_hipon,
+      sinigang_with_bagnet,
+      sisig,
+      tinola,
+      tostadong_pork
 
   ]
 
@@ -141,7 +227,16 @@ const MenuDisplay=()=>{
       biko,
       buko_salad,
       ginataang_halohalo,
-      minatamis_na_saging
+      minatamis_na_saging,
+      buko_pandan,
+      buko_pie,
+      pichi_pichi,
+      puto_bumbong,
+      puto,
+      sapin_sapin,
+      suman_latik,
+      taho,
+      turon
   ]
 
   var pictures_breakfast = [
@@ -153,7 +248,16 @@ const MenuDisplay=()=>{
       hot_milo,
       hot_mocha,
       longganisa_with_rice,
-      tocino_with_rice
+      tocino_with_rice,
+      arroz_caldo,
+      corn_silog,
+      fried_egg_hotdog_bacon,
+      hot_silog,
+      silog,
+      spam_silog,
+      tapsilog,
+      tortang_talong,
+      tuyo_with_rice
   ]
 
   var pictures_drinks =[
@@ -166,6 +270,7 @@ const MenuDisplay=()=>{
       coca_cola,
       corona,
       lemon_juice
+  
   ]
 
   var pictures_appetizer =[
@@ -177,11 +282,19 @@ const MenuDisplay=()=>{
       cheese_stick,
       chicharon_bulaklak,
       crispy_chicken_skin,
-      crispy_tenga   
+      crispy_tenga,
+      baked_tahong,
+      camaron_rebosado,
+      lianas_banana,
+      lumpiang_ubod,
+      onion_ring,
+      rellenong_hipon   
   ]
 
   var prices = [
+    15.99, 17.99, 9.99, 9.99, 25.99, 17.99, 13.99, 19.99, 18.99,  
     15.99, 17.99, 9.99, 9.99, 25.99, 17.99, 13.99, 19.99, 18.99
+    
   ]
 
   var description = "chocolaty aroma with note of vanilla-like swiss, and dark chocolate";

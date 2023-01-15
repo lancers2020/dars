@@ -3,42 +3,42 @@ import React,{useState} from 'react'
 
 
 function Testing1({foods}) {
-    const breakfast={
-        "names":[
-            "Black Coffee","Hot Chocolate","Blueberries Waffle","Strawberry Waffle","Daing with Rice","Hot Milo",
-            "Hot Mocha","Longganisa with Rice","Tocino with Rice"
-        ],
-        "price":[
-            "15.99","17.99","9.99","12.99","25.99","17.99","13.99","19.99","18.99"
-        ]    
-    }
+   const breakfast={
+    "names":[
+       "Black Coffee","Hot Chocolate","Blueberries Waffle","Strawberry Waffle","Daing with Rice","Hot Milo",
+       "Hot Mocha","Longganisa with Rice","Tocino with Rice","Arroz caldo","Corn silog","Fried egg,hotdog,bacon",
+       "Hot silog","Silog","Spam silog","Tapsilog","Tortang talong","Tuyo with rice"],
+    "price":["15.99","17.99","9.99","12.99","25.99","17.99","13.99","19.99","18.99",
+             "15.99","17.99","9.99","12.99","25.99","17.99","13.99","19.99","18.99"]    
+}
 
-    const appetizer={
-        "names":[
-            "Atchara","Dynamite Lumpia","Fishball","Lumpiang Shanghai","Beef Empanada","Cheese Stick","Chicharon bulaklak","Crispy Chicken skin","Crispy Tenga"
-        ],
-        "price":[
-            "8.99","12.99","13.99","11.99","18.99","14.99","13.99","10.99","11.99"
-        ]  
-    }
+  const appetizer={
+    "names":["Atchara","Dynamite Lumpia","Fishball","Lumpiang Shanghai",
+             "Beef Empanada","Cheese Stick","Chicharon bulaklak","Crispy Chicken skin","Crispy Tenga",
+             "Baked tahong","Camaron rebosado","Lianas banana","Lumpiang ubod","Onion ring",
+             "Rellenong hipon"],
+    "price":["8.99","12.99","13.99","11.99","18.99","14.99","13.99","10.99","11.99",
+             "8.99","12.99","13.99","11.99","18.99","14.99" ]  
+}
 
-    const mainDish={
-        "names":[
-            "Crispy Pata","Dinuguan","Kare kare","Palabok","Pancit Bijon","Pinapaitan","Inihaw na Pusit","Lechon Kawali","Pritong Isda"
-        ],
-        "price":[
-            "15.99","17.99","13.99","16.99","21.99","18.99","19.99","11.99","13.99"
-        ]  
-    }
+  const mainDish={
+    "names":["Crispy Pata","Dinuguan","Kare kare","Palabok","Pancit Bijon",
+             "Pinapaitan","Inihaw na Pusit","Lechon Kawali","Pritong Isda",
+             "Batchoy","Bistek tagalog","Ginataang manok","Kinilaw na isda",
+             "Menudo","Pinakbet","Pork sisig","Sinigang na hipon","Sinigang with bagnet",
+             "Sisig","Tinola"],
+    "price":["15.99","17.99","13.99","16.99","21.99","18.99","19.99","11.99","13.99",
+             "15.99","17.99","13.99","16.99","21.99","18.99","19.99","11.99","13.99","19.99","11.99","13.99"]  
+}
 
-    const dessert={
-        "names":[
-            "Halo halo","Kutsinta","Leche Flan","Maiz con yelo","Bibingka","Biko","Buko Salad","Ginataang Halo halo","Minatamis na Saging"
-        ],
-        "price":[
-            "8.99","7.99","10.99","11.99","13.99","7.99","6.99","14.99","15.99"
-        ]  
-    }
+  const dessert={
+    "names":["Halo halo","Kutsinta","Leche Flan","Maiz con yelo","Bibingka",
+             "Biko","Buko Salad","Ginataang Halo halo","Minatamis na Saging",
+             "Buko pandan","Buko pie","Pichi pichi","Puto bumbong","Puto","Sapin sapin",
+             "Suman latik","Taho","Turon"],
+    "price":["8.99","7.99","10.99","11.99","13.99","7.99","6.99","14.99","15.99",
+             "8.99","7.99","10.99","11.99","13.99","7.99","6.99","14.99","15.99"]  
+}
 
     const drinks={
         "names":[
