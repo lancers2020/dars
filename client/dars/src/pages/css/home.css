@@ -7,21 +7,42 @@
     gap: 20px;
     height: 100vh;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    background-image: url(../../pictures/logo/banner.jpg);
+    background-image: url(../../pictures/logo/loginbanner.jpg);
     background-repeat: no-repeat;
     width: 100vw;
-    background-size:relative; 
+    background-size:cover; 
    
 }
+
+
 
 .content{
     margin-top: 40px;
     margin-left: 30px;
     margin-right: 20px;
     background-color: gold;
+    background-position: 20px;
+    
 }
+img{
+    margin-right: 60px;
+}
+
+.column.img{
+    float: left middle right;
+    width: 25%;
+    padding: 0 10px;
+}
+.left.right{
+    width: 30%;
+}
+.middle {
+    width: 50%;
+}
+
 .sale{
     background-color: rgb(245, 207, 81);
+    text-align: center;
 }
 
 button:hover{
