@@ -6,14 +6,12 @@ import Appetizer from '../data/foods/Appetizer'
 import Drinks from '../data/foods/Drinks'
 import Dessert from '../data/foods/Dessert'
 import Breakfast from '../data/foods/Breakfast'
-import banner from '../pictures/logo/banner.jpg'
+import loginbanner from '../pictures/logo/loginbanner.jpg'
 import halo_halo from '../pictures/dessert/halo_halo.jpg'
 import kinilaw_na_isda from '../pictures/main_dish/kinilaw_na_isda.jpg'
 import promo from '../pictures/logo/promo.jpg'
 import costumer1 from '../pictures/logo/costumer1.jpg'
 import costumer3 from '../pictures/logo/costumer3.jpg'
-
-
 import './css/home.css'
 
 
@@ -22,12 +20,14 @@ import './css/home.css'
      <div>
       <div className='hero'>
       </div>
+      <div className='row'>
+      <div className='column'>
        <div className='content'>
         <img width="350px" height="250px" src={promo} alt="promo" />
         <img width="350px" height="250px" src={halo_halo} alt="halo halo" />
         <img width="350px" height="250px" src={kinilaw_na_isda} alt="kinilaw na isda" />
      </div>
-      
+     </div>
      <div className='sale'>
         <h1>PROMO 50% OFF EVERY WEEKEND</h1>
       
@@ -58,12 +58,14 @@ import './css/home.css'
            <h3>Tom Jones</h3>
             <p>Lorem ipsum dolor sit amet, conseciscing<br/>
                Lorem ipsum dolor sit amet, conseciscing</p> 
+            <img width="300px" height="200px" src={costumer3} alt="costumer3" />
          </div>        
         </div>
        </div>
       </div>
      </div>
     </div> 
+   </div>
    )
  }
 
