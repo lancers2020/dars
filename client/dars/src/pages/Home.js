@@ -43,29 +43,27 @@ import './css/home.css'
      </div>
       <div className='costumer'>
         <h2>WHAT COSTUMERS SAYS</h2>
+
+       <div className='parent'></div>        
          <div className='row'>
           <div className='column'>
-           <div className='review'>
+           <div className='child'>
             <img width="300px" height="200px" src={costumer1} alt="costumer1" />
              <h3>Tom Jones</h3>
              <p>Lorem ipsum dolor sit amet, conseciscing<br/>
                 Lorem ipsum dolor sit amet, conseciscing</p> 
-           <img width="300px" height="200px" src={costumer3} alt="costumer3" />
-            <h3>Cathy Gomez</h3>
-            <p>Lorem ipsum dolor sit amet, conseciscing<br/>
-               Lorem ipsum dolor sit amet, conseciscing</p> 
-           <img width="300px" height="200px" src={costumer1} alt="costumer1" />
-           <h3>Tom Jones</h3>
-            <p>Lorem ipsum dolor sit amet, conseciscing<br/>
-               Lorem ipsum dolor sit amet, conseciscing</p> 
             <img width="300px" height="200px" src={costumer3} alt="costumer3" />
-         </div>        
+             <h3>Cathy Gomez</h3>
+             <p>Lorem ipsum dolor sit amet, conseciscing<br/>
+                Lorem ipsum dolor sit amet, conseciscing</p>           
+         </div> 
         </div>
        </div>
       </div>
      </div>
     </div> 
    </div>
+  
    )
  }
 

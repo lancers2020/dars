@@ -33,12 +33,6 @@ img{
     width: 25%;
     padding: 0 10px;
 }
-.left.right{
-    width: 30%;
-}
-.middle {
-    width: 50%;
-}
 
 .sale{
     background-color: rgb(245, 207, 81);
@@ -53,8 +47,14 @@ button:hover{
 h2{
     text-align: center;
 }
-h3{
-    margin-left: 10px;
-   margin-top: 1px;
-}
 
+.parent{
+    float: left middle ;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-top: -80px;
+}
+.h3{
+   text-align: bottom;
+}
