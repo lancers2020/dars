@@ -58,14 +58,45 @@ import './css/home.css'
                 Lorem ipsum dolor sit amet, conseciscing</p>           
          </div> 
         </div>
+       
+        </div>
        </div>
       </div>
+
+      <footer>
+        <div className='footer-content'>
+            <h3>Dars Restobar</h3>
+            <p>Good Food,Good Mood!lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+          </div>
+          <ul className='socials'>
+            <li><a href="#"><i class="fa fa-facebook">Facebook</i></a></li>
+            <li><a href="#"><i class="fa fa-instagram">Instagram</i></a></li>
+            <li><a href="#"><i class="fa fa-Twitter">Twitter</i></a></li>
+            <li><a href="#"><i class="fa fa-google">Google</i></a></li>
+            <li><a href="#"><i class="fa fa-github">Github</i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin">Linkedin</i></a></li>
+          </ul>
+          <div className='footer-bottom'>
+          <p>copyright &copy;2023 <a href="#">Dars Restobar</a>  </p>
+        
+          <div className='footer-menu'>
+          <ul class="f-menu">
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Menu</a></li>
+    <li><a href="">Delivery</a></li>
+ </ul>
+ </div>
+          </div>
+        </footer>
      </div>
     </div> 
-   </div>
   
    )
  }
+
+
+ 
 
 export default Home
 
