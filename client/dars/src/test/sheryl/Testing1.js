@@ -40,16 +40,19 @@ function Testing1({foods}) {
              "8.99","7.99","10.99","11.99","13.99","7.99","6.99","14.99","15.99"]  
 }
 
-  const drinks={
-    "names":["Heineken","Melon Juice","Pineapple Juice","red Horse","Strawberry Juice",
-             "Tiger Beer","Coca Cola","Corona","Lemon Juice"],
-    "price":["4.99","5.99","7.99","9.99","6.99","7.99","5.99","8.99","3.99"]  
+    const drinks={
+        "names":[
+            "Heineken","Melon Juice","Pineapple Juice","red Horse","Strawberry Juice","Tiger Beer","Coca Cola","Corona","Lemon Juice"
+        ],
+        "price":[
+            "4.99","5.99","7.99","9.99","6.99","7.99","5.99","8.99","3.99"
+        ]  
+    }
 }
-
  
 
 
-function Testing1(){
+function Testing11(){
     const Breakfast=()=>{
         if(isBreakfast===true){
             return (
@@ -156,7 +159,7 @@ function Testing1(){
     const [isDrinks, setIsDrinks] =
     useState(false);
   
-     return (
+    return (
         <div>
             <div onClick={()=>{
                 setIsBreakfast(true)
@@ -208,9 +211,9 @@ function Testing1(){
             }}>Drinks</div>
             <Display/>
         </div>       
-     )
-  }
+    );
 }
+
 
 
 
