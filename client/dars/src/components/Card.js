@@ -26,7 +26,7 @@ function Card({picture, name, price, bgColor, width, height, description, color}
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-evenly"
-        }}>
+          }}>
           <div>
               {price}
           </div>

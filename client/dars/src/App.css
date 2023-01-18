@@ -6,6 +6,7 @@
   /* font-size: 20px; */
   width: 100%;
   background-color: white;
+  z-index: 2;
 }
 .navbar-wrapper>div:nth-child(1){
   padding: 30px;
