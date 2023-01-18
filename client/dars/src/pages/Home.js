@@ -22,80 +22,82 @@ import menudo from "../pictures/main_dish/menudo.jpg"
 
  function Home(){
    return(
-     <div>
-      <div className='hero'>
-     </div>
+      <div>
+        <div className='hero'>
+      </div>
       <div className='sale'>
-        <h1>50% OFF EVERY WEEKEND</h1>
+        <div className='home-h2'>50% OFF EVERY WEEKEND</div>
       </div>   
 
-     <div className='row'>
-      <div className='column'>
-       <div className='content'>
-        <img width="350px" height="250px" src={promo} alt="promo" />
-        <img width="350px" height="250px" src={halo_halo} alt="halo halo" />
-        <img width="350px" height="250px" src={kinilaw_na_isda} alt="kinilaw na isda" />
-     </div>
-     </div>
-     <div className='promo-sale'>
-        <h1>Bring your family and friends and try our delicious food!<br/>
-             Nakakasigurong MALINIS at SWAK sa bulsa!</h1>
-     </div>   
-        
-        <div>
+      <div className='row'>
+        <div className='column'>
+          <div className='content'>
+            <img width="350px" height="250px" src={promo} alt="promo" />
+            <img width="350px" height="250px" src={halo_halo} alt="halo halo" />
+            <img width="350px" height="250px" src={kinilaw_na_isda} alt="kinilaw na isda" />
+          </div>
+        </div>
+            <h1>Bring your family and friends and try our delicious food!<br/>
+                Nakakasigurong MALINIS at SWAK sa bulsa!</h1>
+          
+        <div className='promo-sale-2'>
           <figure className='position-relative'>
-             <img src={batchoy} alt="batchoy" />            
+              <img src={batchoy} alt="batchoy" />            
               <figcaption>
                 Monday Promo 10% OFF!
               </figcaption>
           </figure>
 
           <figure className='position-relative'>
-             <img src={spam_silog} alt="spam silog" />            
+              <img src={spam_silog} alt="spam silog" />            
               <figcaption>
                 Every Wednesday 15% OFF!
               </figcaption>
           </figure>
 
           <figure className='position-relative'>
-             <img src={menudo} alt="menudo" />            
+              <img src={menudo} alt="menudo" />            
               <figcaption>
                 Try our NEW recipe!
               </figcaption>
           </figure>
         </div>
       
-     <div className='info'>
-       <p>Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit, sed do eiusmod tempor 
-        incididunt ut labore et dolore magna aliqua.
-        Lorem ipsum dolor sit amet, 
-        consectetur adipiscing elit, sed do eiusmod tempor 
-        incididunt ut labore et dolore magna aliqua.
-        incididunt ut labore et dolore magna aliqua.</p>
-      <button>ORDER NOW</button>
-     </div>
-    </div>
-
-      <div className='costumer'>
-        <h3>WHAT COSTUMERS SAYS</h3>
-
-       <div className='parent'>     
-         <div className='row'>
-          <div className='column'>
-           <div className='child'>
-            <img width="300px" height="200px" src={costumer1} alt="costumer1" />
-             <h3>Tom Jones</h3>
-             <p>Lorem ipsum dolor sit amet, conseciscing<br/>
-                Lorem ipsum dolor sit amet, conseciscing</p> 
-            <img width="300px" height="200px" src={costumer3} alt="costumer3" />
-             <h3>Cathy Gomez</h3>
-             <p>Lorem ipsum dolor sit amet, conseciscing<br/>
-                Lorem ipsum dolor sit amet, conseciscing</p>           
-          </div>  
-         </div>
+        <div className='info'>
+          <p>Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.
+            Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.
+            incididunt ut labore et dolore magna aliqua.</p>
+          <button>ORDER NOW</button>
         </div>
-      </div>   
+      </div>
+
+      <div className='customer'>
+        <div className='home-h2'>WHAT CUSTOMERS SAY</div>
+
+        <div className='parent'>
+           <div className='home-child'>
+            <img width="300px" height="200px" src={costumer1} alt="costumer1" />
+              <div>
+                <h3>Tom Jones</h3>
+                <p>Lorem ipsum dolor sit amet, conseciscing<br/>
+                Lorem ipsum dolor sit amet, conseciscing</p> 
+              </div>
+            </div>
+            <div className='home-child'>
+            <img width="300px" height="200px" src={costumer3} alt="costumer3" />
+              <div>
+                <h3>Cathy Gomez</h3>
+                <p>Lorem ipsum dolor sit amet, conseciscing<br/>
+                Lorem ipsum dolor sit amet, conseciscing</p>
+              </div>         
+            </div>      
+        </div>
+      </div>
+ 
 
 
       <footer>
@@ -116,19 +118,9 @@ import menudo from "../pictures/main_dish/menudo.jpg"
             </ul>
           <div className='footer-bottom'>
            <p className="m-2">All rights reserved {new Date().getFullYear()} Copyright @ <a href="#">Dars Restobar</a> </p>
-        
-          <div className='footer-menu'>
-            <ul class="f-menu">
-              <li><a href="">Home</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Menu</a></li>
-              <li><a href="">Delivery</a></li>
-           </ul>
-         </div>
         </div>
-       </footer>
+      </footer>
      </div>
-    </div> 
   
    )
  }
