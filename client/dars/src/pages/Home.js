@@ -13,14 +13,23 @@ import promo from '../pictures/logo/promo.jpg'
 import costumer1 from '../pictures/logo/costumer1.jpg'
 import costumer3 from '../pictures/logo/costumer3.jpg'
 import './css/home.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import {Container} from "react-bootstrap"
+import batchoy from '../pictures/main_dish/batchoy.jpg'
+import spam_silog from "../pictures/breakfast/spam_silog.jpg"
+import menudo from "../pictures/main_dish/menudo.jpg"
 
 
  function Home(){
    return(
      <div>
       <div className='hero'>
-      </div>
-      <div className='row'>
+     </div>
+      <div className='sale'>
+        <h1>50% OFF EVERY WEEKEND</h1>
+      </div>   
+
+     <div className='row'>
       <div className='column'>
        <div className='content'>
         <img width="350px" height="250px" src={promo} alt="promo" />
@@ -28,8 +37,33 @@ import './css/home.css'
         <img width="350px" height="250px" src={kinilaw_na_isda} alt="kinilaw na isda" />
      </div>
      </div>
-     <div className='sale'>
-        <h1>PROMO 50% OFF EVERY WEEKEND</h1>
+     <div className='promo-sale'>
+        <h1>Bring your family and friends and try our delicious food!<br/>
+             Nakakasigurong MALINIS at SWAK sa bulsa!</h1>
+     </div>   
+        
+        <div>
+          <figure className='position-relative'>
+             <img src={batchoy} alt="batchoy" />            
+              <figcaption>
+                Monday Promo 10% OFF!
+              </figcaption>
+          </figure>
+
+          <figure className='position-relative'>
+             <img src={spam_silog} alt="spam silog" />            
+              <figcaption>
+                Every Wednesday 15% OFF!
+              </figcaption>
+          </figure>
+
+          <figure className='position-relative'>
+             <img src={menudo} alt="menudo" />            
+              <figcaption>
+                Try our NEW recipe!
+              </figcaption>
+          </figure>
+        </div>
       
      <div className='info'>
        <p>Lorem ipsum dolor sit amet, 
@@ -39,8 +73,10 @@ import './css/home.css'
         consectetur adipiscing elit, sed do eiusmod tempor 
         incididunt ut labore et dolore magna aliqua.
         incididunt ut labore et dolore magna aliqua.</p>
-        <button>ORDER NOW</button>
+      <button>ORDER NOW</button>
      </div>
+    </div>
+
       <div className='costumer'>
         <h2>WHAT COSTUMERS SAYS</h2>
 
@@ -56,39 +92,41 @@ import './css/home.css'
              <h3>Cathy Gomez</h3>
              <p>Lorem ipsum dolor sit amet, conseciscing<br/>
                 Lorem ipsum dolor sit amet, conseciscing</p>           
-         </div> 
+          </div>  
+         </div>
         </div>
-       
-        </div>
-       </div>
-      </div>
+ 
+
 
       <footer>
         <div className='footer-content'>
             <h3>Dars Restobar</h3>
-            <p>Good Food,Good Mood!lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+            <h4>GOOD FOOD, GOOD MOOD!!<br/></h4>
+            <p>Lorem ipsum lorem ipsum lorem<br/>
+               Lorem ipsum lorem ipsum lorem ipsum lorem <br/>
+               Lorem ipsum lorem ipsum lorem ipsum lorem ipsum Lorem ipsum</p>
           </div>
-          <ul className='socials'>
-            <li><a href="#"><i class="fa fa-facebook">Facebook</i></a></li>
-            <li><a href="#"><i class="fa fa-instagram">Instagram</i></a></li>
-            <li><a href="#"><i class="fa fa-Twitter">Twitter</i></a></li>
-            <li><a href="#"><i class="fa fa-google">Google</i></a></li>
-            <li><a href="#"><i class="fa fa-github">Github</i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin">Linkedin</i></a></li>
-          </ul>
+            <ul className='socials'>
+              <li><a href="#"><i class="fa fa-facebook">Facebook</i></a></li>
+              <li><a href="#"><i class="fa fa-instagram">Instagram</i></a></li>
+              <li><a href="#"><i class="fa fa-Twitter">Twitter</i></a></li>
+              <li><a href="#"><i class="fa fa-google">Google</i></a></li>
+              <li><a href="#"><i class="fa fa-github">Github</i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin">Linkedin</i></a></li>
+            </ul>
           <div className='footer-bottom'>
-          <p>copyright &copy;2023 <a href="#">Dars Restobar</a>  </p>
+           <p className="m-2">All rights reserved {new Date().getFullYear()} Copyright @ <a href="#">Dars Restobar</a> </p>
         
           <div className='footer-menu'>
-          <ul class="f-menu">
-    <li><a href="">Home</a></li>
-    <li><a href="">About</a></li>
-    <li><a href="">Menu</a></li>
-    <li><a href="">Delivery</a></li>
- </ul>
- </div>
-          </div>
-        </footer>
+            <ul class="f-menu">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Menu</a></li>
+              <li><a href="">Delivery</a></li>
+           </ul>
+         </div>
+        </div>
+       </footer>
      </div>
     </div> 
   

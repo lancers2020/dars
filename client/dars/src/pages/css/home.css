@@ -14,6 +14,11 @@
    
 }
 
+.content img{
+    float: left middle right;
+}
+
+
 
 
 .content{
@@ -32,6 +37,12 @@ img{
     float: left middle right;
     width: 25%;
     padding: 0 10px;
+}
+.promo-sale h1{
+    text-align: center;
+    background-color: rgb(248, 193, 54);
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .sale{
@@ -62,13 +73,40 @@ h3{
     border-radius: 30px;
     border-top: 50px;
 }
+.Container{
+    width: auto;
+ }
 
+.position-relative img{
+    border-radius:50px;
+    width: 400px;   
+ }
+ 
+   
+    figcaption{
+        position: absolute;
+        bottom: 2rem;
+        margin: 0 2rem;
+        color: rgb(9, 2, 48);
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    @media screen and (max-width: 768px) {
+        figcaption{
+            position: inherit;
+            bottom: inherit;
+            margin: .25rem 0px;
+            font-size: inherit;
+            color: inherit;
+        }
+    }
 
 
 
 body{
     background: #fcfcfc;
-    font-family: sans-serif;
+    font-family: italic;
 }
 
 footer{
@@ -77,12 +115,13 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    background: #111;
+    background: rgb(28, 37, 28);
     height: auto;
     width: 100vw;
-    padding-top: 40px;
-    color: #fff;
+    padding-top: 25px;
+    color: rgb(223, 238, 15);
 }
+
 .footer-content{
     display: flex;
     align-items: center;
@@ -92,16 +131,27 @@ footer{
 }
 .footer-content h3{
     font-size: 2.1rem;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
+    text-decoration: overline underline; 
+    font-family: italic; 
 }
+
+.footer-content h4{
+    margin-top: auto;
+    font-size: medium;
+}
+
 .footer-content p{
     max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
+    margin: 20px auto;
+    margin-top: 5px;
+    line-height: 20px;
+    font-size: 15px;
     color: #cacdd2;
+    padding-top: 1px;
+    
 }
 .socials{
     list-style: none;
@@ -115,7 +165,7 @@ footer{
 }
 .socials a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(231, 243, 59);
     border: 1.1px solid white;
     padding: 5px;
     border-radius: 50%;
@@ -126,10 +176,10 @@ footer{
     transition: color .4s ease;
 }
 .socials a:hover i{
-    color: aqua;
+    color: rgb(13, 211, 72);
 }
 .footer-bottom{
-    background: #000;
+    background: rgb(24, 22, 22);
     width: 100vw;
     padding: 20px;
     padding-bottom: 40px;
@@ -153,6 +203,7 @@ footer{
  }
  .footer-menu{
     float: right;
+    margin-right: 55px;
   }
   .footer-menu ul{
     display: flex;
@@ -162,7 +213,7 @@ footer{
   display: block;
   }
   .footer-menu ul li a{
-    color: #cfd2d6;
+    color: yellow;
     text-decoration: none;
   }
   .footer-menu ul li a:hover{
@@ -177,3 +228,4 @@ footer{
     }
     
 
+   
