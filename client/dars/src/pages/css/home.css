@@ -57,8 +57,7 @@ h1{
     align-items: center;
 }
 
-.sale{
-    background-color: rgb(245, 207, 81);
+.info{
     text-align: center;
     -webkit-text-stroke: .3vw #ff7300;
 }
