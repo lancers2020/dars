@@ -13,44 +13,78 @@
     background-size:cover; 
    
 }
-
-.content img{
-    float: left middle right;
-}
-
-
-
-
-.content{
-    margin-top: 40px;
-    margin-left: 30px;
-    margin-right: 20px;
-    background-color: gold;
-    background-position: 20px;
-    
-}
-img{
-    margin-right: 60px;
-}
-
-.column.img{
-    float: left middle right;
-    width: 25%;
-    padding: 0 10px;
-}
-.promo-sale h1{
-    text-align: center;
-    background-color: rgb(248, 193, 54);
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
 .sale{
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: rgb(245, 207, 81);
     text-align: center;
 }
 
+.content img{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 20px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;        
+}
+
+.promo-sale h1{
+    text-align: center;
+    background-color: rgb(248, 193, 54);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.position-relative img{
+    border-radius:50px;
+    width: 400px;   
+ }
+
+ figcaption{
+    position: absolute;
+    bottom: 2rem;
+    margin: 0 2rem;
+    color: rgb(9, 2, 48);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 768px) {
+    figcaption{
+        position: inherit;
+        bottom: inherit;
+        margin: .25rem 0px;
+        font-size: inherit;
+        color: inherit;
+    }
+}
+
+.info{
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing:1px;
+}
+
 button:hover{
+    background-color: orange;
+    border-radius: 6px;
+}
+
+.costumer h3{
+    text-align: center;
+}
+.child{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.child h3{
+    font-size: medium;
+    font-weight: bolder;
+
+}
+
+/*button:hover{
   background-color: rgb(26, 23, 243);
   border-radius: 8px;
 }
@@ -72,35 +106,13 @@ h3{
 .child{
     border-radius: 30px;
     border-top: 50px;
-}
-.Container{
-    width: auto;
- }
+}*/
 
-.position-relative img{
-    border-radius:50px;
-    width: 400px;   
- }
+
+
  
    
-    figcaption{
-        position: absolute;
-        bottom: 2rem;
-        margin: 0 2rem;
-        color: rgb(9, 2, 48);
-        font-size: 25px;
-        font-weight: bolder;
-    }
-
-    @media screen and (max-width: 768px) {
-        figcaption{
-            position: inherit;
-            bottom: inherit;
-            margin: .25rem 0px;
-            font-size: inherit;
-            color: inherit;
-        }
-    }
+   
 
 
 

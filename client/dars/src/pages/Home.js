@@ -78,9 +78,9 @@ import menudo from "../pictures/main_dish/menudo.jpg"
     </div>
 
       <div className='costumer'>
-        <h2>WHAT COSTUMERS SAYS</h2>
+        <h3>WHAT COSTUMERS SAYS</h3>
 
-       <div className='parent'></div>        
+       <div className='parent'>     
          <div className='row'>
           <div className='column'>
            <div className='child'>
@@ -95,7 +95,7 @@ import menudo from "../pictures/main_dish/menudo.jpg"
           </div>  
          </div>
         </div>
- 
+      </div>   
 
 
       <footer>
