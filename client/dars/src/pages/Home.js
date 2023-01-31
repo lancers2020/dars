@@ -64,13 +64,10 @@ import menudo from "../pictures/main_dish/menudo.jpg"
         </div>
       
         <div className='info'>
-          <p>Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua.
-            Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua.
-            incididunt ut labore et dolore magna aliqua.</p>
+          <p>All Value Meals come with rice and pancit,
+             spring rolls, sauteed vegetables, with soup 
+             and small dessert. Party Platters are perfect
+             for larger groups.</p>
           <button>ORDER NOW</button>
         </div>
       </div>
@@ -83,16 +80,20 @@ import menudo from "../pictures/main_dish/menudo.jpg"
             <img width="300px" height="200px" src={costumer1} alt="costumer1" />
               <div>
                 <h3>Tom Jones</h3>
-                <p>Lorem ipsum dolor sit amet, conseciscing<br/>
-                Lorem ipsum dolor sit amet, conseciscing</p> 
+                <p>The food was delicious! a wonderful tour of local
+                  specialties with excellent presentation
+                  Each course was well balanced, great textures and flavours.</p> 
               </div>
             </div>
             <div className='home-child'>
             <img width="300px" height="200px" src={costumer3} alt="costumer3" />
               <div>
                 <h3>Cathy Gomez</h3>
-                <p>Lorem ipsum dolor sit amet, conseciscing<br/>
-                Lorem ipsum dolor sit amet, conseciscing</p>
+                <p>Someday I will be back to indulge in his amazing
+                  gastronomical delight again, Congrats chef. Wish
+                  the best for the 3rd star and for making in to #7 
+                  on this list.
+                </p>
               </div>         
             </div>      
         </div>
@@ -104,9 +105,10 @@ import menudo from "../pictures/main_dish/menudo.jpg"
         <div className='footer-content'>
             <h3>Dars Restobar</h3>
             <h4>GOOD FOOD, GOOD MOOD!!<br/></h4>
-            <p>Lorem ipsum lorem ipsum lorem<br/>
-               Lorem ipsum lorem ipsum lorem ipsum lorem <br/>
-               Lorem ipsum lorem ipsum lorem ipsum lorem ipsum Lorem ipsum</p>
+            <p>True ingredients, true flavors, true passion.
+               Good food doesn't need to be complicated.<br/>
+               The finest cuisine is close to home, Good Food in a Friendly Place.
+              </p>
           </div>
             <ul className='socials'>
               <li><a href="#"><i class="fa fa-facebook">Facebook</i></a></li>
